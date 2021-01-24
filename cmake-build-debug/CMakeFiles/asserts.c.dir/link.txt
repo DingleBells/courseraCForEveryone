@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/asserts.c.dir/Structures/Week1/asserts.c.o  -o asserts.c 

@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/arrayAsParameter.c.dir/Fundamentals/Week5/arrayAsParameter.c.o  -o arrayAsParameter.c 

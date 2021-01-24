@@ -1,0 +1,1642 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="courseraCForEveryone"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="enums.c">
+				<Option output="/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/enums.c" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 enums.c"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="enums.c/fast">
+				<Option output="/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/enums.c" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 enums.c/fast"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bubbleSort.c">
+				<Option output="/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/bubbleSort.c" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 bubbleSort.c"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bubbleSort.c/fast">
+				<Option output="/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/bubbleSort.c" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 bubbleSort.c/fast"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example.c">
+				<Option output="/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/example.c" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 example.c"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example.c/fast">
+				<Option output="/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/example.c" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 example.c/fast"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="weighElephantSeal.c">
+				<Option output="/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/weighElephantSeal.c" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 weighElephantSeal.c"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="weighElephantSeal.c/fast">
+				<Option output="/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/weighElephantSeal.c" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 weighElephantSeal.c/fast"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="arrayAsParameter.c">
+				<Option output="/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/arrayAsParameter.c" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 arrayAsParameter.c"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="arrayAsParameter.c/fast">
+				<Option output="/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/arrayAsParameter.c" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 arrayAsParameter.c/fast"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="moreMergeSort.c">
+				<Option output="/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/moreMergeSort.c" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 moreMergeSort.c"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="moreMergeSort.c/fast">
+				<Option output="/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/moreMergeSort.c" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 moreMergeSort.c/fast"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="recursiveFibonacci.c">
+				<Option output="/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/recursiveFibonacci.c" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 recursiveFibonacci.c"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="recursiveFibonacci.c/fast">
+				<Option output="/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/recursiveFibonacci.c" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 recursiveFibonacci.c/fast"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="recursionFactorial.c">
+				<Option output="/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/recursionFactorial.c" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 recursionFactorial.c"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="recursionFactorial.c/fast">
+				<Option output="/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/recursionFactorial.c" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 recursionFactorial.c/fast"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="assertsMath.c">
+				<Option output="/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/assertsMath.c" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 assertsMath.c"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="assertsMath.c/fast">
+				<Option output="/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/assertsMath.c" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 assertsMath.c/fast"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="asserts.c">
+				<Option output="/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/asserts.c" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 asserts.c"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="asserts.c/fast">
+				<Option output="/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/asserts.c" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 asserts.c/fast"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="breakContinueAndSwitch.c">
+				<Option output="/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/breakContinueAndSwitch.c" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 breakContinueAndSwitch.c"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="breakContinueAndSwitch.c/fast">
+				<Option output="/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/breakContinueAndSwitch.c" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 breakContinueAndSwitch.c/fast"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="marathon.c">
+				<Option output="/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/marathon.c" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 marathon.c"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="marathon.c/fast">
+				<Option output="/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/marathon.c" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 marathon.c/fast"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="fahrenheitToCelsius.c">
+				<Option output="/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/fahrenheitToCelsius.c" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 fahrenheitToCelsius.c"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="fahrenheitToCelsius.c/fast">
+				<Option output="/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/fahrenheitToCelsius.c" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 fahrenheitToCelsius.c/fast"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="simpleArray.c">
+				<Option output="/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/simpleArray.c" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 simpleArray.c"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="simpleArray.c/fast">
+				<Option output="/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/simpleArray.c" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 simpleArray.c/fast"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="findSine.c">
+				<Option output="/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/findSine.c" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 findSine.c"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="findSine.c/fast">
+				<Option output="/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/findSine.c" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 findSine.c/fast"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="courseraCForEveryone">
+				<Option output="/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/courseraCForEveryone" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 courseraCForEveryone"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="courseraCForEveryone/fast">
+				<Option output="/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/courseraCForEveryone" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 courseraCForEveryone/fast"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="preprocessor.c">
+				<Option output="/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/preprocessor.c" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 preprocessor.c"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="preprocessor.c/fast">
+				<Option output="/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/preprocessor.c" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 preprocessor.c/fast"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="FunctionPrototype.c">
+				<Option output="/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/FunctionPrototype.c" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 FunctionPrototype.c"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="FunctionPrototype.c/fast">
+				<Option output="/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/FunctionPrototype.c" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 FunctionPrototype.c/fast"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="circlearea.c">
+				<Option output="/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/circlearea.c" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 circlearea.c"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="circlearea.c/fast">
+				<Option output="/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/circlearea.c" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 circlearea.c/fast"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="weather.c">
+				<Option output="/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/weather.c" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 weather.c"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="weather.c/fast">
+				<Option output="/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/weather.c" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 weather.c/fast"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="milesAndYardsToYards.c">
+				<Option output="/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/milesAndYardsToYards.c" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 milesAndYardsToYards.c"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="milesAndYardsToYards.c/fast">
+				<Option output="/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/milesAndYardsToYards.c" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 milesAndYardsToYards.c/fast"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="week1add3">
+				<Option output="/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/week1add3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 week1add3"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="week1add3/fast">
+				<Option output="/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/week1add3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 week1add3/fast"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="add3.c">
+				<Option output="/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/add3.c" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 add3.c"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="add3.c/fast">
+				<Option output="/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/add3.c" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 add3.c/fast"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Week1fixDrP.c">
+				<Option output="/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Week1fixDrP.c" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 Week1fixDrP.c"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Week1fixDrP.c/fast">
+				<Option output="/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Week1fixDrP.c" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 Week1fixDrP.c/fast"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="milesAndYardsToKM.c">
+				<Option output="/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/milesAndYardsToKM.c" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 milesAndYardsToKM.c"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="milesAndYardsToKM.c/fast">
+				<Option output="/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/milesAndYardsToKM.c" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 milesAndYardsToKM.c/fast"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sineCosine.c">
+				<Option output="/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/sineCosine.c" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 sineCosine.c"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sineCosine.c/fast">
+				<Option output="/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/sineCosine.c" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 sineCosine.c/fast"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="printPoem.c">
+				<Option output="/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/printPoem.c" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 printPoem.c"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="printPoem.c/fast">
+				<Option output="/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/printPoem.c" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 printPoem.c/fast"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Week2fixDrP.c">
+				<Option output="/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Week2fixDrP.c" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 Week2fixDrP.c"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Week2fixDrP.c/fast">
+				<Option output="/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Week2fixDrP.c" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 Week2fixDrP.c/fast"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pointerCode.c">
+				<Option output="/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/pointerCode.c" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 pointerCode.c"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pointerCode.c/fast">
+				<Option output="/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/pointerCode.c" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 pointerCode.c/fast"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="runningAverage.c">
+				<Option output="/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/runningAverage.c" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 runningAverage.c"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="runningAverage.c/fast">
+				<Option output="/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/runningAverage.c" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 runningAverage.c/fast"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mergeSort.c">
+				<Option output="/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/mergeSort.c" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 mergeSort.c"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mergeSort.c/fast">
+				<Option output="/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/mergeSort.c" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 mergeSort.c/fast"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="simpleForLoop.c">
+				<Option output="/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/simpleForLoop.c" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 simpleForLoop.c"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="simpleForLoop.c/fast">
+				<Option output="/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/simpleForLoop.c" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 simpleForLoop.c/fast"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="forCntChar.c">
+				<Option output="/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/forCntChar.c" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 forCntChar.c"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="forCntChar.c/fast">
+				<Option output="/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/forCntChar.c" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 forCntChar.c/fast"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="week3DrPFix.c">
+				<Option output="/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/week3DrPFix.c" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 week3DrPFix.c"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="week3DrPFix.c/fast">
+				<Option output="/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/week3DrPFix.c" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 week3DrPFix.c/fast"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ternaryOperator.c">
+				<Option output="/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/ternaryOperator.c" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 ternaryOperator.c"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ternaryOperator.c/fast">
+				<Option output="/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/ternaryOperator.c" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 ternaryOperator.c/fast"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="whleCntChar.c">
+				<Option output="/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/whleCntChar.c" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 whleCntChar.c"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="whleCntChar.c/fast">
+				<Option output="/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/whleCntChar.c" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 whleCntChar.c/fast"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="speedingTicket.c">
+				<Option output="/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/speedingTicket.c" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 speedingTicket.c"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="speedingTicket.c/fast">
+				<Option output="/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/speedingTicket.c" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 speedingTicket.c/fast"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="valentinesWhile.c">
+				<Option output="/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/valentinesWhile.c" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 valentinesWhile.c"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="valentinesWhile.c/fast">
+				<Option output="/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/valentinesWhile.c" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 valentinesWhile.c/fast"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="whileLoop.c">
+				<Option output="/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/whileLoop.c" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 whileLoop.c"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="whileLoop.c/fast">
+				<Option output="/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/whileLoop.c" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 whileLoop.c/fast"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/kanghee/CLionProjects/courseraCForEveryone/Fundamentals/Week1/Week1fixDrP.c">
+			<Option target="Week1fixDrP.c"/>
+		</Unit>
+		<Unit filename="/home/kanghee/CLionProjects/courseraCForEveryone/Fundamentals/Week1/add3.c">
+			<Option target="week1add3"/>
+			<Option target="add3.c"/>
+		</Unit>
+		<Unit filename="/home/kanghee/CLionProjects/courseraCForEveryone/Fundamentals/Week1/circlearea.c">
+			<Option target="circlearea.c"/>
+		</Unit>
+		<Unit filename="/home/kanghee/CLionProjects/courseraCForEveryone/Fundamentals/Week1/fahrenheitToCelsius.c">
+			<Option target="fahrenheitToCelsius.c"/>
+		</Unit>
+		<Unit filename="/home/kanghee/CLionProjects/courseraCForEveryone/Fundamentals/Week1/marathon.c">
+			<Option target="marathon.c"/>
+		</Unit>
+		<Unit filename="/home/kanghee/CLionProjects/courseraCForEveryone/Fundamentals/Week1/milesAndYardsToKM.c">
+			<Option target="milesAndYardsToKM.c"/>
+		</Unit>
+		<Unit filename="/home/kanghee/CLionProjects/courseraCForEveryone/Fundamentals/Week1/milesAndYardsToYards.c">
+			<Option target="milesAndYardsToYards.c"/>
+		</Unit>
+		<Unit filename="/home/kanghee/CLionProjects/courseraCForEveryone/Fundamentals/Week1/printPoem.c">
+			<Option target="printPoem.c"/>
+		</Unit>
+		<Unit filename="/home/kanghee/CLionProjects/courseraCForEveryone/Fundamentals/Week2/Week2fixDrP.c">
+			<Option target="Week2fixDrP.c"/>
+		</Unit>
+		<Unit filename="/home/kanghee/CLionProjects/courseraCForEveryone/Fundamentals/Week2/findSine.c">
+			<Option target="findSine.c"/>
+		</Unit>
+		<Unit filename="/home/kanghee/CLionProjects/courseraCForEveryone/Fundamentals/Week2/runningAverage.c">
+			<Option target="runningAverage.c"/>
+		</Unit>
+		<Unit filename="/home/kanghee/CLionProjects/courseraCForEveryone/Fundamentals/Week3/breakContinueAndSwitch.c">
+			<Option target="breakContinueAndSwitch.c"/>
+		</Unit>
+		<Unit filename="/home/kanghee/CLionProjects/courseraCForEveryone/Fundamentals/Week3/forCntChar.c">
+			<Option target="forCntChar.c"/>
+		</Unit>
+		<Unit filename="/home/kanghee/CLionProjects/courseraCForEveryone/Fundamentals/Week3/simpleForLoop.c">
+			<Option target="simpleForLoop.c"/>
+		</Unit>
+		<Unit filename="/home/kanghee/CLionProjects/courseraCForEveryone/Fundamentals/Week3/sineCosine.c">
+			<Option target="sineCosine.c"/>
+		</Unit>
+		<Unit filename="/home/kanghee/CLionProjects/courseraCForEveryone/Fundamentals/Week3/speedingTicket.c">
+			<Option target="speedingTicket.c"/>
+		</Unit>
+		<Unit filename="/home/kanghee/CLionProjects/courseraCForEveryone/Fundamentals/Week3/ternaryOperator.c">
+			<Option target="ternaryOperator.c"/>
+		</Unit>
+		<Unit filename="/home/kanghee/CLionProjects/courseraCForEveryone/Fundamentals/Week3/valentinesWhile.c">
+			<Option target="valentinesWhile.c"/>
+		</Unit>
+		<Unit filename="/home/kanghee/CLionProjects/courseraCForEveryone/Fundamentals/Week3/weather.c">
+			<Option target="weather.c"/>
+		</Unit>
+		<Unit filename="/home/kanghee/CLionProjects/courseraCForEveryone/Fundamentals/Week3/week3DrPFix.c">
+			<Option target="week3DrPFix.c"/>
+		</Unit>
+		<Unit filename="/home/kanghee/CLionProjects/courseraCForEveryone/Fundamentals/Week3/whileLoop.c">
+			<Option target="whileLoop.c"/>
+		</Unit>
+		<Unit filename="/home/kanghee/CLionProjects/courseraCForEveryone/Fundamentals/Week3/whleCntChar.c">
+			<Option target="whleCntChar.c"/>
+		</Unit>
+		<Unit filename="/home/kanghee/CLionProjects/courseraCForEveryone/Fundamentals/Week4/FunctionPrototype.c">
+			<Option target="FunctionPrototype.c"/>
+		</Unit>
+		<Unit filename="/home/kanghee/CLionProjects/courseraCForEveryone/Fundamentals/Week4/recursionFactorial.c">
+			<Option target="recursionFactorial.c"/>
+		</Unit>
+		<Unit filename="/home/kanghee/CLionProjects/courseraCForEveryone/Fundamentals/Week4/recursiveFibonacci.c">
+			<Option target="recursiveFibonacci.c"/>
+		</Unit>
+		<Unit filename="/home/kanghee/CLionProjects/courseraCForEveryone/Fundamentals/Week5/arrayAsParameter.c">
+			<Option target="arrayAsParameter.c"/>
+		</Unit>
+		<Unit filename="/home/kanghee/CLionProjects/courseraCForEveryone/Fundamentals/Week5/bubbleSort.c">
+			<Option target="bubbleSort.c"/>
+		</Unit>
+		<Unit filename="/home/kanghee/CLionProjects/courseraCForEveryone/Fundamentals/Week5/example.c">
+			<Option target="example.c"/>
+		</Unit>
+		<Unit filename="/home/kanghee/CLionProjects/courseraCForEveryone/Fundamentals/Week5/mergeSort.c">
+			<Option target="mergeSort.c"/>
+		</Unit>
+		<Unit filename="/home/kanghee/CLionProjects/courseraCForEveryone/Fundamentals/Week5/moreMergeSort.c">
+			<Option target="moreMergeSort.c"/>
+		</Unit>
+		<Unit filename="/home/kanghee/CLionProjects/courseraCForEveryone/Fundamentals/Week5/pointerCode.c">
+			<Option target="pointerCode.c"/>
+		</Unit>
+		<Unit filename="/home/kanghee/CLionProjects/courseraCForEveryone/Fundamentals/Week5/simpleArray.c">
+			<Option target="simpleArray.c"/>
+		</Unit>
+		<Unit filename="/home/kanghee/CLionProjects/courseraCForEveryone/Fundamentals/Week5/weighElephantSeal.c">
+			<Option target="weighElephantSeal.c"/>
+		</Unit>
+		<Unit filename="/home/kanghee/CLionProjects/courseraCForEveryone/Structures/Week1/asserts.c">
+			<Option target="asserts.c"/>
+		</Unit>
+		<Unit filename="/home/kanghee/CLionProjects/courseraCForEveryone/Structures/Week1/assertsMath.c">
+			<Option target="assertsMath.c"/>
+		</Unit>
+		<Unit filename="/home/kanghee/CLionProjects/courseraCForEveryone/Structures/Week1/enums.c">
+			<Option target="enums.c"/>
+		</Unit>
+		<Unit filename="/home/kanghee/CLionProjects/courseraCForEveryone/Structures/Week1/preprocessor.c">
+			<Option target="preprocessor.c"/>
+		</Unit>
+		<Unit filename="/home/kanghee/CLionProjects/courseraCForEveryone/main.c">
+			<Option target="courseraCForEveryone"/>
+		</Unit>
+		<Unit filename="/home/kanghee/CLionProjects/courseraCForEveryone/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

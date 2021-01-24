@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/recursiveFibonacci.c.dir/Fundamentals/Week4/recursiveFibonacci.c.o  -o recursiveFibonacci.c 

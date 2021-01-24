@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/Week1fixDrP.c.dir/Fundamentals/Week1/Week1fixDrP.c.o  -o Week1fixDrP.c 

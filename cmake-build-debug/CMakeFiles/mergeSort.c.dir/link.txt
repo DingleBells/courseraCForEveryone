@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/mergeSort.c.dir/Fundamentals/Week5/mergeSort.c.o  -o mergeSort.c 

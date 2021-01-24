@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/pointerCode.c.dir/Fundamentals/Week5/pointerCode.c.o  -o pointerCode.c 

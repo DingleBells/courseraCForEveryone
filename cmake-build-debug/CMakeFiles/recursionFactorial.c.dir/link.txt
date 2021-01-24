@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/recursionFactorial.c.dir/Fundamentals/Week4/recursionFactorial.c.o  -o recursionFactorial.c 

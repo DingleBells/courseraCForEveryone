@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/simpleForLoop.c.dir/Fundamentals/Week3/simpleForLoop.c.o  -o simpleForLoop.c 

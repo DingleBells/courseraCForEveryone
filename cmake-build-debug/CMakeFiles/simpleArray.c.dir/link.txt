@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/simpleArray.c.dir/Fundamentals/Week5/simpleArray.c.o  -o simpleArray.c 

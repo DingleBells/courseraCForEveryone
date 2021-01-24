@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/week1add3.dir/Fundamentals/Week1/add3.c.o  -o week1add3 

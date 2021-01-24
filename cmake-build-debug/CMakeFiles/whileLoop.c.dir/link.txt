@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/whileLoop.c.dir/Fundamentals/Week3/whileLoop.c.o  -o whileLoop.c 

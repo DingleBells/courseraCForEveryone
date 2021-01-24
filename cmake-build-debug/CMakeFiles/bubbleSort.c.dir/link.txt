@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/bubbleSort.c.dir/Fundamentals/Week5/bubbleSort.c.o  -o bubbleSort.c 

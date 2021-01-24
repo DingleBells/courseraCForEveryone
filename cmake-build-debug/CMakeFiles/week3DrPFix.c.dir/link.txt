@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/week3DrPFix.c.dir/Fundamentals/Week3/week3DrPFix.c.o  -o week3DrPFix.c 

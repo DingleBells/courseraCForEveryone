@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/assertsMath.c.dir/Structures/Week1/assertsMath.c.o  -o assertsMath.c 

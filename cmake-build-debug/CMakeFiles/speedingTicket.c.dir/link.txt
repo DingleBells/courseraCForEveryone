@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/speedingTicket.c.dir/Fundamentals/Week3/speedingTicket.c.o  -o speedingTicket.c 

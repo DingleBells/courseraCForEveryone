@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/milesAndYardsToYards.c.dir/Fundamentals/Week1/milesAndYardsToYards.c.o  -o milesAndYardsToYards.c 

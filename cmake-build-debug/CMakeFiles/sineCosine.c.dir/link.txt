@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/sineCosine.c.dir/Fundamentals/Week3/sineCosine.c.o  -o sineCosine.c 

@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/fahrenheitToCelsius.c.dir/Fundamentals/Week1/fahrenheitToCelsius.c.o  -o fahrenheitToCelsius.c 

@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/example.c.dir/Fundamentals/Week5/example.c.o  -o example.c 

@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/whleCntChar.c.dir/Fundamentals/Week3/whleCntChar.c.o  -o whleCntChar.c 

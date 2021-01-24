@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/forCntChar.c.dir/Fundamentals/Week3/forCntChar.c.o  -o forCntChar.c 

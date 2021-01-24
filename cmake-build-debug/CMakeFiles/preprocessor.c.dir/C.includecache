@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/kanghee/CLionProjects/courseraCForEveryone/Structures/Week1/preprocessor.c
+stdio.h
+-
+stdlib.h
+-
+time.h
+-
+

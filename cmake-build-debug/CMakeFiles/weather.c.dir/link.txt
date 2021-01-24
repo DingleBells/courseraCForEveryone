@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/weather.c.dir/Fundamentals/Week3/weather.c.o  -o weather.c 

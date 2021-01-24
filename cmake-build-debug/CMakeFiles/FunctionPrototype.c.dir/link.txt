@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/FunctionPrototype.c.dir/Fundamentals/Week4/FunctionPrototype.c.o  -o FunctionPrototype.c 
