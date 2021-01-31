@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/kanghee/CLionProjects/courseraCForEveryone/Fundamentals/Week3/week3DrPFix.c" "/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles/week3DrPFix.c.dir/Fundamentals/Week3/week3DrPFix.c.o"
+  "/Users/kanghee/CLionProjects/courseraCForEveryone/Fundamentals/Week3/week3DrPFix.c" "/Users/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles/week3DrPFix.c.dir/Fundamentals/Week3/week3DrPFix.c.o"
   )
-set(CMAKE_C_COMPILER_ID "GNU")
+set(CMAKE_C_COMPILER_ID "AppleClang")
 
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH

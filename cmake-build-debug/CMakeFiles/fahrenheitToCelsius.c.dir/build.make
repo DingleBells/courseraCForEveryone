@@ -54,19 +54,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /snap/clion/138/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake
 
 # The command to remove a file.
-RM = /snap/clion/138/bin/cmake/linux/bin/cmake -E rm -f
+RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kanghee/CLionProjects/courseraCForEveryone
+CMAKE_SOURCE_DIR = /Users/kanghee/CLionProjects/courseraCForEveryone
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/fahrenheitToCelsius.c.dir/depend.make
@@ -79,16 +79,16 @@ include CMakeFiles/fahrenheitToCelsius.c.dir/flags.make
 
 CMakeFiles/fahrenheitToCelsius.c.dir/Fundamentals/Week1/fahrenheitToCelsius.c.o: CMakeFiles/fahrenheitToCelsius.c.dir/flags.make
 CMakeFiles/fahrenheitToCelsius.c.dir/Fundamentals/Week1/fahrenheitToCelsius.c.o: ../Fundamentals/Week1/fahrenheitToCelsius.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/fahrenheitToCelsius.c.dir/Fundamentals/Week1/fahrenheitToCelsius.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fahrenheitToCelsius.c.dir/Fundamentals/Week1/fahrenheitToCelsius.c.o   -c /home/kanghee/CLionProjects/courseraCForEveryone/Fundamentals/Week1/fahrenheitToCelsius.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/fahrenheitToCelsius.c.dir/Fundamentals/Week1/fahrenheitToCelsius.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fahrenheitToCelsius.c.dir/Fundamentals/Week1/fahrenheitToCelsius.c.o   -c /Users/kanghee/CLionProjects/courseraCForEveryone/Fundamentals/Week1/fahrenheitToCelsius.c
 
 CMakeFiles/fahrenheitToCelsius.c.dir/Fundamentals/Week1/fahrenheitToCelsius.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fahrenheitToCelsius.c.dir/Fundamentals/Week1/fahrenheitToCelsius.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kanghee/CLionProjects/courseraCForEveryone/Fundamentals/Week1/fahrenheitToCelsius.c > CMakeFiles/fahrenheitToCelsius.c.dir/Fundamentals/Week1/fahrenheitToCelsius.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/kanghee/CLionProjects/courseraCForEveryone/Fundamentals/Week1/fahrenheitToCelsius.c > CMakeFiles/fahrenheitToCelsius.c.dir/Fundamentals/Week1/fahrenheitToCelsius.c.i
 
 CMakeFiles/fahrenheitToCelsius.c.dir/Fundamentals/Week1/fahrenheitToCelsius.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fahrenheitToCelsius.c.dir/Fundamentals/Week1/fahrenheitToCelsius.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kanghee/CLionProjects/courseraCForEveryone/Fundamentals/Week1/fahrenheitToCelsius.c -o CMakeFiles/fahrenheitToCelsius.c.dir/Fundamentals/Week1/fahrenheitToCelsius.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/kanghee/CLionProjects/courseraCForEveryone/Fundamentals/Week1/fahrenheitToCelsius.c -o CMakeFiles/fahrenheitToCelsius.c.dir/Fundamentals/Week1/fahrenheitToCelsius.c.s
 
 # Object files for target fahrenheitToCelsius.c
 fahrenheitToCelsius_c_OBJECTS = \
@@ -100,7 +100,7 @@ fahrenheitToCelsius_c_EXTERNAL_OBJECTS =
 fahrenheitToCelsius.c: CMakeFiles/fahrenheitToCelsius.c.dir/Fundamentals/Week1/fahrenheitToCelsius.c.o
 fahrenheitToCelsius.c: CMakeFiles/fahrenheitToCelsius.c.dir/build.make
 fahrenheitToCelsius.c: CMakeFiles/fahrenheitToCelsius.c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable fahrenheitToCelsius.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable fahrenheitToCelsius.c"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/fahrenheitToCelsius.c.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -113,6 +113,6 @@ CMakeFiles/fahrenheitToCelsius.c.dir/clean:
 .PHONY : CMakeFiles/fahrenheitToCelsius.c.dir/clean
 
 CMakeFiles/fahrenheitToCelsius.c.dir/depend:
-	cd /home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kanghee/CLionProjects/courseraCForEveryone /home/kanghee/CLionProjects/courseraCForEveryone /home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug /home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug /home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles/fahrenheitToCelsius.c.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/kanghee/CLionProjects/courseraCForEveryone /Users/kanghee/CLionProjects/courseraCForEveryone /Users/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug /Users/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug /Users/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles/fahrenheitToCelsius.c.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/fahrenheitToCelsius.c.dir/depend
 

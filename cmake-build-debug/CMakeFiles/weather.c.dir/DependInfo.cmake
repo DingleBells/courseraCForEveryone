@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/kanghee/CLionProjects/courseraCForEveryone/Fundamentals/Week3/weather.c" "/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles/weather.c.dir/Fundamentals/Week3/weather.c.o"
+  "/Users/kanghee/CLionProjects/courseraCForEveryone/Fundamentals/Week3/weather.c" "/Users/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles/weather.c.dir/Fundamentals/Week3/weather.c.o"
   )
-set(CMAKE_C_COMPILER_ID "GNU")
+set(CMAKE_C_COMPILER_ID "AppleClang")
 
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH

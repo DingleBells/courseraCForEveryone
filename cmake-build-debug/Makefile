@@ -59,38 +59,27 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /snap/clion/138/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake
 
 # The command to remove a file.
-RM = /snap/clion/138/bin/cmake/linux/bin/cmake -E rm -f
+RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kanghee/CLionProjects/courseraCForEveryone
+CMAKE_SOURCE_DIR = /Users/kanghee/CLionProjects/courseraCForEveryone
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/snap/clion/138/bin/cmake/linux/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/snap/clion/138/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -98,11 +87,22 @@ edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
 
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
+
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles /home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles /Users/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -131,121 +131,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named enums.c
+# Target rules for targets named week2Assignment.c
 
 # Build rule for target.
-enums.c: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 enums.c
-.PHONY : enums.c
+week2Assignment.c: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 week2Assignment.c
+.PHONY : week2Assignment.c
 
 # fast build rule for target.
-enums.c/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/enums.c.dir/build.make CMakeFiles/enums.c.dir/build
-.PHONY : enums.c/fast
-
-#=============================================================================
-# Target rules for targets named bubbleSort.c
-
-# Build rule for target.
-bubbleSort.c: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bubbleSort.c
-.PHONY : bubbleSort.c
-
-# fast build rule for target.
-bubbleSort.c/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/bubbleSort.c.dir/build.make CMakeFiles/bubbleSort.c.dir/build
-.PHONY : bubbleSort.c/fast
-
-#=============================================================================
-# Target rules for targets named example.c
-
-# Build rule for target.
-example.c: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 example.c
-.PHONY : example.c
-
-# fast build rule for target.
-example.c/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/example.c.dir/build.make CMakeFiles/example.c.dir/build
-.PHONY : example.c/fast
-
-#=============================================================================
-# Target rules for targets named weighElephantSeal.c
-
-# Build rule for target.
-weighElephantSeal.c: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 weighElephantSeal.c
-.PHONY : weighElephantSeal.c
-
-# fast build rule for target.
-weighElephantSeal.c/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/weighElephantSeal.c.dir/build.make CMakeFiles/weighElephantSeal.c.dir/build
-.PHONY : weighElephantSeal.c/fast
-
-#=============================================================================
-# Target rules for targets named arrayAsParameter.c
-
-# Build rule for target.
-arrayAsParameter.c: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 arrayAsParameter.c
-.PHONY : arrayAsParameter.c
-
-# fast build rule for target.
-arrayAsParameter.c/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/arrayAsParameter.c.dir/build.make CMakeFiles/arrayAsParameter.c.dir/build
-.PHONY : arrayAsParameter.c/fast
-
-#=============================================================================
-# Target rules for targets named moreMergeSort.c
-
-# Build rule for target.
-moreMergeSort.c: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 moreMergeSort.c
-.PHONY : moreMergeSort.c
-
-# fast build rule for target.
-moreMergeSort.c/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/moreMergeSort.c.dir/build.make CMakeFiles/moreMergeSort.c.dir/build
-.PHONY : moreMergeSort.c/fast
-
-#=============================================================================
-# Target rules for targets named recursiveFibonacci.c
-
-# Build rule for target.
-recursiveFibonacci.c: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 recursiveFibonacci.c
-.PHONY : recursiveFibonacci.c
-
-# fast build rule for target.
-recursiveFibonacci.c/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/recursiveFibonacci.c.dir/build.make CMakeFiles/recursiveFibonacci.c.dir/build
-.PHONY : recursiveFibonacci.c/fast
-
-#=============================================================================
-# Target rules for targets named recursionFactorial.c
-
-# Build rule for target.
-recursionFactorial.c: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 recursionFactorial.c
-.PHONY : recursionFactorial.c
-
-# fast build rule for target.
-recursionFactorial.c/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/recursionFactorial.c.dir/build.make CMakeFiles/recursionFactorial.c.dir/build
-.PHONY : recursionFactorial.c/fast
-
-#=============================================================================
-# Target rules for targets named assertsMath.c
-
-# Build rule for target.
-assertsMath.c: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 assertsMath.c
-.PHONY : assertsMath.c
-
-# fast build rule for target.
-assertsMath.c/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/assertsMath.c.dir/build.make CMakeFiles/assertsMath.c.dir/build
-.PHONY : assertsMath.c/fast
+week2Assignment.c/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week2Assignment.c.dir/build.make CMakeFiles/week2Assignment.c.dir/build
+.PHONY : week2Assignment.c/fast
 
 #=============================================================================
 # Target rules for targets named asserts.c
@@ -261,82 +157,17 @@ asserts.c/fast:
 .PHONY : asserts.c/fast
 
 #=============================================================================
-# Target rules for targets named breakContinueAndSwitch.c
+# Target rules for targets named enums.c
 
 # Build rule for target.
-breakContinueAndSwitch.c: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 breakContinueAndSwitch.c
-.PHONY : breakContinueAndSwitch.c
+enums.c: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 enums.c
+.PHONY : enums.c
 
 # fast build rule for target.
-breakContinueAndSwitch.c/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/breakContinueAndSwitch.c.dir/build.make CMakeFiles/breakContinueAndSwitch.c.dir/build
-.PHONY : breakContinueAndSwitch.c/fast
-
-#=============================================================================
-# Target rules for targets named marathon.c
-
-# Build rule for target.
-marathon.c: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 marathon.c
-.PHONY : marathon.c
-
-# fast build rule for target.
-marathon.c/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/marathon.c.dir/build.make CMakeFiles/marathon.c.dir/build
-.PHONY : marathon.c/fast
-
-#=============================================================================
-# Target rules for targets named fahrenheitToCelsius.c
-
-# Build rule for target.
-fahrenheitToCelsius.c: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 fahrenheitToCelsius.c
-.PHONY : fahrenheitToCelsius.c
-
-# fast build rule for target.
-fahrenheitToCelsius.c/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/fahrenheitToCelsius.c.dir/build.make CMakeFiles/fahrenheitToCelsius.c.dir/build
-.PHONY : fahrenheitToCelsius.c/fast
-
-#=============================================================================
-# Target rules for targets named simpleArray.c
-
-# Build rule for target.
-simpleArray.c: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 simpleArray.c
-.PHONY : simpleArray.c
-
-# fast build rule for target.
-simpleArray.c/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/simpleArray.c.dir/build.make CMakeFiles/simpleArray.c.dir/build
-.PHONY : simpleArray.c/fast
-
-#=============================================================================
-# Target rules for targets named findSine.c
-
-# Build rule for target.
-findSine.c: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 findSine.c
-.PHONY : findSine.c
-
-# fast build rule for target.
-findSine.c/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/findSine.c.dir/build.make CMakeFiles/findSine.c.dir/build
-.PHONY : findSine.c/fast
-
-#=============================================================================
-# Target rules for targets named courseraCForEveryone
-
-# Build rule for target.
-courseraCForEveryone: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 courseraCForEveryone
-.PHONY : courseraCForEveryone
-
-# fast build rule for target.
-courseraCForEveryone/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/courseraCForEveryone.dir/build.make CMakeFiles/courseraCForEveryone.dir/build
-.PHONY : courseraCForEveryone/fast
+enums.c/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/enums.c.dir/build.make CMakeFiles/enums.c.dir/build
+.PHONY : enums.c/fast
 
 #=============================================================================
 # Target rules for targets named preprocessor.c
@@ -352,173 +183,17 @@ preprocessor.c/fast:
 .PHONY : preprocessor.c/fast
 
 #=============================================================================
-# Target rules for targets named FunctionPrototype.c
+# Target rules for targets named example.c
 
 # Build rule for target.
-FunctionPrototype.c: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 FunctionPrototype.c
-.PHONY : FunctionPrototype.c
+example.c: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 example.c
+.PHONY : example.c
 
 # fast build rule for target.
-FunctionPrototype.c/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/FunctionPrototype.c.dir/build.make CMakeFiles/FunctionPrototype.c.dir/build
-.PHONY : FunctionPrototype.c/fast
-
-#=============================================================================
-# Target rules for targets named circlearea.c
-
-# Build rule for target.
-circlearea.c: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 circlearea.c
-.PHONY : circlearea.c
-
-# fast build rule for target.
-circlearea.c/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/circlearea.c.dir/build.make CMakeFiles/circlearea.c.dir/build
-.PHONY : circlearea.c/fast
-
-#=============================================================================
-# Target rules for targets named weather.c
-
-# Build rule for target.
-weather.c: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 weather.c
-.PHONY : weather.c
-
-# fast build rule for target.
-weather.c/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/weather.c.dir/build.make CMakeFiles/weather.c.dir/build
-.PHONY : weather.c/fast
-
-#=============================================================================
-# Target rules for targets named milesAndYardsToYards.c
-
-# Build rule for target.
-milesAndYardsToYards.c: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 milesAndYardsToYards.c
-.PHONY : milesAndYardsToYards.c
-
-# fast build rule for target.
-milesAndYardsToYards.c/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/milesAndYardsToYards.c.dir/build.make CMakeFiles/milesAndYardsToYards.c.dir/build
-.PHONY : milesAndYardsToYards.c/fast
-
-#=============================================================================
-# Target rules for targets named week1add3
-
-# Build rule for target.
-week1add3: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 week1add3
-.PHONY : week1add3
-
-# fast build rule for target.
-week1add3/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week1add3.dir/build.make CMakeFiles/week1add3.dir/build
-.PHONY : week1add3/fast
-
-#=============================================================================
-# Target rules for targets named add3.c
-
-# Build rule for target.
-add3.c: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 add3.c
-.PHONY : add3.c
-
-# fast build rule for target.
-add3.c/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/add3.c.dir/build.make CMakeFiles/add3.c.dir/build
-.PHONY : add3.c/fast
-
-#=============================================================================
-# Target rules for targets named Week1fixDrP.c
-
-# Build rule for target.
-Week1fixDrP.c: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Week1fixDrP.c
-.PHONY : Week1fixDrP.c
-
-# fast build rule for target.
-Week1fixDrP.c/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Week1fixDrP.c.dir/build.make CMakeFiles/Week1fixDrP.c.dir/build
-.PHONY : Week1fixDrP.c/fast
-
-#=============================================================================
-# Target rules for targets named milesAndYardsToKM.c
-
-# Build rule for target.
-milesAndYardsToKM.c: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 milesAndYardsToKM.c
-.PHONY : milesAndYardsToKM.c
-
-# fast build rule for target.
-milesAndYardsToKM.c/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/milesAndYardsToKM.c.dir/build.make CMakeFiles/milesAndYardsToKM.c.dir/build
-.PHONY : milesAndYardsToKM.c/fast
-
-#=============================================================================
-# Target rules for targets named sineCosine.c
-
-# Build rule for target.
-sineCosine.c: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sineCosine.c
-.PHONY : sineCosine.c
-
-# fast build rule for target.
-sineCosine.c/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sineCosine.c.dir/build.make CMakeFiles/sineCosine.c.dir/build
-.PHONY : sineCosine.c/fast
-
-#=============================================================================
-# Target rules for targets named printPoem.c
-
-# Build rule for target.
-printPoem.c: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 printPoem.c
-.PHONY : printPoem.c
-
-# fast build rule for target.
-printPoem.c/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/printPoem.c.dir/build.make CMakeFiles/printPoem.c.dir/build
-.PHONY : printPoem.c/fast
-
-#=============================================================================
-# Target rules for targets named Week2fixDrP.c
-
-# Build rule for target.
-Week2fixDrP.c: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Week2fixDrP.c
-.PHONY : Week2fixDrP.c
-
-# fast build rule for target.
-Week2fixDrP.c/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Week2fixDrP.c.dir/build.make CMakeFiles/Week2fixDrP.c.dir/build
-.PHONY : Week2fixDrP.c/fast
-
-#=============================================================================
-# Target rules for targets named pointerCode.c
-
-# Build rule for target.
-pointerCode.c: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pointerCode.c
-.PHONY : pointerCode.c
-
-# fast build rule for target.
-pointerCode.c/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointerCode.c.dir/build.make CMakeFiles/pointerCode.c.dir/build
-.PHONY : pointerCode.c/fast
-
-#=============================================================================
-# Target rules for targets named runningAverage.c
-
-# Build rule for target.
-runningAverage.c: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 runningAverage.c
-.PHONY : runningAverage.c
-
-# fast build rule for target.
-runningAverage.c/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/runningAverage.c.dir/build.make CMakeFiles/runningAverage.c.dir/build
-.PHONY : runningAverage.c/fast
+example.c/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/example.c.dir/build.make CMakeFiles/example.c.dir/build
+.PHONY : example.c/fast
 
 #=============================================================================
 # Target rules for targets named mergeSort.c
@@ -534,69 +209,17 @@ mergeSort.c/fast:
 .PHONY : mergeSort.c/fast
 
 #=============================================================================
-# Target rules for targets named simpleForLoop.c
+# Target rules for targets named valentinesWhile.c
 
 # Build rule for target.
-simpleForLoop.c: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 simpleForLoop.c
-.PHONY : simpleForLoop.c
+valentinesWhile.c: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 valentinesWhile.c
+.PHONY : valentinesWhile.c
 
 # fast build rule for target.
-simpleForLoop.c/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/simpleForLoop.c.dir/build.make CMakeFiles/simpleForLoop.c.dir/build
-.PHONY : simpleForLoop.c/fast
-
-#=============================================================================
-# Target rules for targets named forCntChar.c
-
-# Build rule for target.
-forCntChar.c: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 forCntChar.c
-.PHONY : forCntChar.c
-
-# fast build rule for target.
-forCntChar.c/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/forCntChar.c.dir/build.make CMakeFiles/forCntChar.c.dir/build
-.PHONY : forCntChar.c/fast
-
-#=============================================================================
-# Target rules for targets named week3DrPFix.c
-
-# Build rule for target.
-week3DrPFix.c: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 week3DrPFix.c
-.PHONY : week3DrPFix.c
-
-# fast build rule for target.
-week3DrPFix.c/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week3DrPFix.c.dir/build.make CMakeFiles/week3DrPFix.c.dir/build
-.PHONY : week3DrPFix.c/fast
-
-#=============================================================================
-# Target rules for targets named ternaryOperator.c
-
-# Build rule for target.
-ternaryOperator.c: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ternaryOperator.c
-.PHONY : ternaryOperator.c
-
-# fast build rule for target.
-ternaryOperator.c/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ternaryOperator.c.dir/build.make CMakeFiles/ternaryOperator.c.dir/build
-.PHONY : ternaryOperator.c/fast
-
-#=============================================================================
-# Target rules for targets named whleCntChar.c
-
-# Build rule for target.
-whleCntChar.c: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 whleCntChar.c
-.PHONY : whleCntChar.c
-
-# fast build rule for target.
-whleCntChar.c/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/whleCntChar.c.dir/build.make CMakeFiles/whleCntChar.c.dir/build
-.PHONY : whleCntChar.c/fast
+valentinesWhile.c/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/valentinesWhile.c.dir/build.make CMakeFiles/valentinesWhile.c.dir/build
+.PHONY : valentinesWhile.c/fast
 
 #=============================================================================
 # Target rules for targets named speedingTicket.c
@@ -612,17 +235,316 @@ speedingTicket.c/fast:
 .PHONY : speedingTicket.c/fast
 
 #=============================================================================
-# Target rules for targets named valentinesWhile.c
+# Target rules for targets named bubbleSort.c
 
 # Build rule for target.
-valentinesWhile.c: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 valentinesWhile.c
-.PHONY : valentinesWhile.c
+bubbleSort.c: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bubbleSort.c
+.PHONY : bubbleSort.c
 
 # fast build rule for target.
-valentinesWhile.c/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/valentinesWhile.c.dir/build.make CMakeFiles/valentinesWhile.c.dir/build
-.PHONY : valentinesWhile.c/fast
+bubbleSort.c/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bubbleSort.c.dir/build.make CMakeFiles/bubbleSort.c.dir/build
+.PHONY : bubbleSort.c/fast
+
+#=============================================================================
+# Target rules for targets named simpleArray.c
+
+# Build rule for target.
+simpleArray.c: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 simpleArray.c
+.PHONY : simpleArray.c
+
+# fast build rule for target.
+simpleArray.c/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simpleArray.c.dir/build.make CMakeFiles/simpleArray.c.dir/build
+.PHONY : simpleArray.c/fast
+
+#=============================================================================
+# Target rules for targets named courseraCForEveryone
+
+# Build rule for target.
+courseraCForEveryone: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 courseraCForEveryone
+.PHONY : courseraCForEveryone
+
+# fast build rule for target.
+courseraCForEveryone/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/courseraCForEveryone.dir/build.make CMakeFiles/courseraCForEveryone.dir/build
+.PHONY : courseraCForEveryone/fast
+
+#=============================================================================
+# Target rules for targets named ternaryOperator.c
+
+# Build rule for target.
+ternaryOperator.c: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ternaryOperator.c
+.PHONY : ternaryOperator.c
+
+# fast build rule for target.
+ternaryOperator.c/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ternaryOperator.c.dir/build.make CMakeFiles/ternaryOperator.c.dir/build
+.PHONY : ternaryOperator.c/fast
+
+#=============================================================================
+# Target rules for targets named sineCosine.c
+
+# Build rule for target.
+sineCosine.c: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sineCosine.c
+.PHONY : sineCosine.c
+
+# fast build rule for target.
+sineCosine.c/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sineCosine.c.dir/build.make CMakeFiles/sineCosine.c.dir/build
+.PHONY : sineCosine.c/fast
+
+#=============================================================================
+# Target rules for targets named breakContinueAndSwitch.c
+
+# Build rule for target.
+breakContinueAndSwitch.c: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 breakContinueAndSwitch.c
+.PHONY : breakContinueAndSwitch.c
+
+# fast build rule for target.
+breakContinueAndSwitch.c/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/breakContinueAndSwitch.c.dir/build.make CMakeFiles/breakContinueAndSwitch.c.dir/build
+.PHONY : breakContinueAndSwitch.c/fast
+
+#=============================================================================
+# Target rules for targets named milesAndYardsToYards.c
+
+# Build rule for target.
+milesAndYardsToYards.c: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 milesAndYardsToYards.c
+.PHONY : milesAndYardsToYards.c
+
+# fast build rule for target.
+milesAndYardsToYards.c/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/milesAndYardsToYards.c.dir/build.make CMakeFiles/milesAndYardsToYards.c.dir/build
+.PHONY : milesAndYardsToYards.c/fast
+
+#=============================================================================
+# Target rules for targets named week3DrPFix.c
+
+# Build rule for target.
+week3DrPFix.c: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 week3DrPFix.c
+.PHONY : week3DrPFix.c
+
+# fast build rule for target.
+week3DrPFix.c/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week3DrPFix.c.dir/build.make CMakeFiles/week3DrPFix.c.dir/build
+.PHONY : week3DrPFix.c/fast
+
+#=============================================================================
+# Target rules for targets named weighElephantSeal.c
+
+# Build rule for target.
+weighElephantSeal.c: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 weighElephantSeal.c
+.PHONY : weighElephantSeal.c
+
+# fast build rule for target.
+weighElephantSeal.c/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/weighElephantSeal.c.dir/build.make CMakeFiles/weighElephantSeal.c.dir/build
+.PHONY : weighElephantSeal.c/fast
+
+#=============================================================================
+# Target rules for targets named runningAverage.c
+
+# Build rule for target.
+runningAverage.c: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 runningAverage.c
+.PHONY : runningAverage.c
+
+# fast build rule for target.
+runningAverage.c/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runningAverage.c.dir/build.make CMakeFiles/runningAverage.c.dir/build
+.PHONY : runningAverage.c/fast
+
+#=============================================================================
+# Target rules for targets named pointerCode.c
+
+# Build rule for target.
+pointerCode.c: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pointerCode.c
+.PHONY : pointerCode.c
+
+# fast build rule for target.
+pointerCode.c/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointerCode.c.dir/build.make CMakeFiles/pointerCode.c.dir/build
+.PHONY : pointerCode.c/fast
+
+#=============================================================================
+# Target rules for targets named arrayAsParameter.c
+
+# Build rule for target.
+arrayAsParameter.c: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 arrayAsParameter.c
+.PHONY : arrayAsParameter.c
+
+# fast build rule for target.
+arrayAsParameter.c/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arrayAsParameter.c.dir/build.make CMakeFiles/arrayAsParameter.c.dir/build
+.PHONY : arrayAsParameter.c/fast
+
+#=============================================================================
+# Target rules for targets named recursionFactorial.c
+
+# Build rule for target.
+recursionFactorial.c: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 recursionFactorial.c
+.PHONY : recursionFactorial.c
+
+# fast build rule for target.
+recursionFactorial.c/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/recursionFactorial.c.dir/build.make CMakeFiles/recursionFactorial.c.dir/build
+.PHONY : recursionFactorial.c/fast
+
+#=============================================================================
+# Target rules for targets named Week2fixDrP.c
+
+# Build rule for target.
+Week2fixDrP.c: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Week2fixDrP.c
+.PHONY : Week2fixDrP.c
+
+# fast build rule for target.
+Week2fixDrP.c/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Week2fixDrP.c.dir/build.make CMakeFiles/Week2fixDrP.c.dir/build
+.PHONY : Week2fixDrP.c/fast
+
+#=============================================================================
+# Target rules for targets named forCntChar.c
+
+# Build rule for target.
+forCntChar.c: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 forCntChar.c
+.PHONY : forCntChar.c
+
+# fast build rule for target.
+forCntChar.c/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/forCntChar.c.dir/build.make CMakeFiles/forCntChar.c.dir/build
+.PHONY : forCntChar.c/fast
+
+#=============================================================================
+# Target rules for targets named circlearea.c
+
+# Build rule for target.
+circlearea.c: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 circlearea.c
+.PHONY : circlearea.c
+
+# fast build rule for target.
+circlearea.c/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/circlearea.c.dir/build.make CMakeFiles/circlearea.c.dir/build
+.PHONY : circlearea.c/fast
+
+#=============================================================================
+# Target rules for targets named whleCntChar.c
+
+# Build rule for target.
+whleCntChar.c: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 whleCntChar.c
+.PHONY : whleCntChar.c
+
+# fast build rule for target.
+whleCntChar.c/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/whleCntChar.c.dir/build.make CMakeFiles/whleCntChar.c.dir/build
+.PHONY : whleCntChar.c/fast
+
+#=============================================================================
+# Target rules for targets named marathon.c
+
+# Build rule for target.
+marathon.c: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 marathon.c
+.PHONY : marathon.c
+
+# fast build rule for target.
+marathon.c/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/marathon.c.dir/build.make CMakeFiles/marathon.c.dir/build
+.PHONY : marathon.c/fast
+
+#=============================================================================
+# Target rules for targets named assertsMath.c
+
+# Build rule for target.
+assertsMath.c: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 assertsMath.c
+.PHONY : assertsMath.c
+
+# fast build rule for target.
+assertsMath.c/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/assertsMath.c.dir/build.make CMakeFiles/assertsMath.c.dir/build
+.PHONY : assertsMath.c/fast
+
+#=============================================================================
+# Target rules for targets named weather.c
+
+# Build rule for target.
+weather.c: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 weather.c
+.PHONY : weather.c
+
+# fast build rule for target.
+weather.c/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/weather.c.dir/build.make CMakeFiles/weather.c.dir/build
+.PHONY : weather.c/fast
+
+#=============================================================================
+# Target rules for targets named add3.c
+
+# Build rule for target.
+add3.c: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 add3.c
+.PHONY : add3.c
+
+# fast build rule for target.
+add3.c/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/add3.c.dir/build.make CMakeFiles/add3.c.dir/build
+.PHONY : add3.c/fast
+
+#=============================================================================
+# Target rules for targets named findSine.c
+
+# Build rule for target.
+findSine.c: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 findSine.c
+.PHONY : findSine.c
+
+# fast build rule for target.
+findSine.c/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/findSine.c.dir/build.make CMakeFiles/findSine.c.dir/build
+.PHONY : findSine.c/fast
+
+#=============================================================================
+# Target rules for targets named recursiveFibonacci.c
+
+# Build rule for target.
+recursiveFibonacci.c: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 recursiveFibonacci.c
+.PHONY : recursiveFibonacci.c
+
+# fast build rule for target.
+recursiveFibonacci.c/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/recursiveFibonacci.c.dir/build.make CMakeFiles/recursiveFibonacci.c.dir/build
+.PHONY : recursiveFibonacci.c/fast
+
+#=============================================================================
+# Target rules for targets named Week1fixDrP.c
+
+# Build rule for target.
+Week1fixDrP.c: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Week1fixDrP.c
+.PHONY : Week1fixDrP.c
+
+# fast build rule for target.
+Week1fixDrP.c/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Week1fixDrP.c.dir/build.make CMakeFiles/Week1fixDrP.c.dir/build
+.PHONY : Week1fixDrP.c/fast
 
 #=============================================================================
 # Target rules for targets named whileLoop.c
@@ -636,6 +558,97 @@ whileLoop.c: cmake_check_build_system
 whileLoop.c/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/whileLoop.c.dir/build.make CMakeFiles/whileLoop.c.dir/build
 .PHONY : whileLoop.c/fast
+
+#=============================================================================
+# Target rules for targets named simpleForLoop.c
+
+# Build rule for target.
+simpleForLoop.c: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 simpleForLoop.c
+.PHONY : simpleForLoop.c
+
+# fast build rule for target.
+simpleForLoop.c/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simpleForLoop.c.dir/build.make CMakeFiles/simpleForLoop.c.dir/build
+.PHONY : simpleForLoop.c/fast
+
+#=============================================================================
+# Target rules for targets named milesAndYardsToKM.c
+
+# Build rule for target.
+milesAndYardsToKM.c: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 milesAndYardsToKM.c
+.PHONY : milesAndYardsToKM.c
+
+# fast build rule for target.
+milesAndYardsToKM.c/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/milesAndYardsToKM.c.dir/build.make CMakeFiles/milesAndYardsToKM.c.dir/build
+.PHONY : milesAndYardsToKM.c/fast
+
+#=============================================================================
+# Target rules for targets named moreMergeSort.c
+
+# Build rule for target.
+moreMergeSort.c: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 moreMergeSort.c
+.PHONY : moreMergeSort.c
+
+# fast build rule for target.
+moreMergeSort.c/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/moreMergeSort.c.dir/build.make CMakeFiles/moreMergeSort.c.dir/build
+.PHONY : moreMergeSort.c/fast
+
+#=============================================================================
+# Target rules for targets named printPoem.c
+
+# Build rule for target.
+printPoem.c: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 printPoem.c
+.PHONY : printPoem.c
+
+# fast build rule for target.
+printPoem.c/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/printPoem.c.dir/build.make CMakeFiles/printPoem.c.dir/build
+.PHONY : printPoem.c/fast
+
+#=============================================================================
+# Target rules for targets named week1add3
+
+# Build rule for target.
+week1add3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 week1add3
+.PHONY : week1add3
+
+# fast build rule for target.
+week1add3/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week1add3.dir/build.make CMakeFiles/week1add3.dir/build
+.PHONY : week1add3/fast
+
+#=============================================================================
+# Target rules for targets named FunctionPrototype.c
+
+# Build rule for target.
+FunctionPrototype.c: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 FunctionPrototype.c
+.PHONY : FunctionPrototype.c
+
+# fast build rule for target.
+FunctionPrototype.c/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FunctionPrototype.c.dir/build.make CMakeFiles/FunctionPrototype.c.dir/build
+.PHONY : FunctionPrototype.c/fast
+
+#=============================================================================
+# Target rules for targets named fahrenheitToCelsius.c
+
+# Build rule for target.
+fahrenheitToCelsius.c: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 fahrenheitToCelsius.c
+.PHONY : fahrenheitToCelsius.c
+
+# fast build rule for target.
+fahrenheitToCelsius.c/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fahrenheitToCelsius.c.dir/build.make CMakeFiles/fahrenheitToCelsius.c.dir/build
+.PHONY : fahrenheitToCelsius.c/fast
 
 Fundamentals/Week1/Week1fixDrP.o: Fundamentals/Week1/Week1fixDrP.c.o
 
@@ -670,8 +683,8 @@ Fundamentals/Week1/add3.o: Fundamentals/Week1/add3.c.o
 
 # target to build an object file
 Fundamentals/Week1/add3.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week1add3.dir/build.make CMakeFiles/week1add3.dir/Fundamentals/Week1/add3.c.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/add3.c.dir/build.make CMakeFiles/add3.c.dir/Fundamentals/Week1/add3.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week1add3.dir/build.make CMakeFiles/week1add3.dir/Fundamentals/Week1/add3.c.o
 .PHONY : Fundamentals/Week1/add3.c.o
 
 Fundamentals/Week1/add3.i: Fundamentals/Week1/add3.c.i
@@ -680,8 +693,8 @@ Fundamentals/Week1/add3.i: Fundamentals/Week1/add3.c.i
 
 # target to preprocess a source file
 Fundamentals/Week1/add3.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week1add3.dir/build.make CMakeFiles/week1add3.dir/Fundamentals/Week1/add3.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/add3.c.dir/build.make CMakeFiles/add3.c.dir/Fundamentals/Week1/add3.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week1add3.dir/build.make CMakeFiles/week1add3.dir/Fundamentals/Week1/add3.c.i
 .PHONY : Fundamentals/Week1/add3.c.i
 
 Fundamentals/Week1/add3.s: Fundamentals/Week1/add3.c.s
@@ -690,8 +703,8 @@ Fundamentals/Week1/add3.s: Fundamentals/Week1/add3.c.s
 
 # target to generate assembly for a file
 Fundamentals/Week1/add3.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week1add3.dir/build.make CMakeFiles/week1add3.dir/Fundamentals/Week1/add3.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/add3.c.dir/build.make CMakeFiles/add3.c.dir/Fundamentals/Week1/add3.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week1add3.dir/build.make CMakeFiles/week1add3.dir/Fundamentals/Week1/add3.c.s
 .PHONY : Fundamentals/Week1/add3.c.s
 
 Fundamentals/Week1/circlearea.o: Fundamentals/Week1/circlearea.c.o
@@ -1639,6 +1652,33 @@ Structures/Week1/preprocessor.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/preprocessor.c.dir/build.make CMakeFiles/preprocessor.c.dir/Structures/Week1/preprocessor.c.s
 .PHONY : Structures/Week1/preprocessor.c.s
 
+Structures/Week2/week2Assignment.o: Structures/Week2/week2Assignment.c.o
+
+.PHONY : Structures/Week2/week2Assignment.o
+
+# target to build an object file
+Structures/Week2/week2Assignment.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week2Assignment.c.dir/build.make CMakeFiles/week2Assignment.c.dir/Structures/Week2/week2Assignment.c.o
+.PHONY : Structures/Week2/week2Assignment.c.o
+
+Structures/Week2/week2Assignment.i: Structures/Week2/week2Assignment.c.i
+
+.PHONY : Structures/Week2/week2Assignment.i
+
+# target to preprocess a source file
+Structures/Week2/week2Assignment.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week2Assignment.c.dir/build.make CMakeFiles/week2Assignment.c.dir/Structures/Week2/week2Assignment.c.i
+.PHONY : Structures/Week2/week2Assignment.c.i
+
+Structures/Week2/week2Assignment.s: Structures/Week2/week2Assignment.c.s
+
+.PHONY : Structures/Week2/week2Assignment.s
+
+# target to generate assembly for a file
+Structures/Week2/week2Assignment.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week2Assignment.c.dir/build.make CMakeFiles/week2Assignment.c.dir/Structures/Week2/week2Assignment.c.s
+.PHONY : Structures/Week2/week2Assignment.c.s
+
 main.o: main.c.o
 
 .PHONY : main.o
@@ -1709,6 +1749,7 @@ help:
 	@echo "... valentinesWhile.c"
 	@echo "... weather.c"
 	@echo "... week1add3"
+	@echo "... week2Assignment.c"
 	@echo "... week3DrPFix.c"
 	@echo "... weighElephantSeal.c"
 	@echo "... whileLoop.c"
@@ -1824,6 +1865,9 @@ help:
 	@echo "... Structures/Week1/preprocessor.o"
 	@echo "... Structures/Week1/preprocessor.i"
 	@echo "... Structures/Week1/preprocessor.s"
+	@echo "... Structures/Week2/week2Assignment.o"
+	@echo "... Structures/Week2/week2Assignment.i"
+	@echo "... Structures/Week2/week2Assignment.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

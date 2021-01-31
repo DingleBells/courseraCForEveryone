@@ -54,19 +54,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /snap/clion/138/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake
 
 # The command to remove a file.
-RM = /snap/clion/138/bin/cmake/linux/bin/cmake -E rm -f
+RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kanghee/CLionProjects/courseraCForEveryone
+CMAKE_SOURCE_DIR = /Users/kanghee/CLionProjects/courseraCForEveryone
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/recursiveFibonacci.c.dir/depend.make
@@ -79,16 +79,16 @@ include CMakeFiles/recursiveFibonacci.c.dir/flags.make
 
 CMakeFiles/recursiveFibonacci.c.dir/Fundamentals/Week4/recursiveFibonacci.c.o: CMakeFiles/recursiveFibonacci.c.dir/flags.make
 CMakeFiles/recursiveFibonacci.c.dir/Fundamentals/Week4/recursiveFibonacci.c.o: ../Fundamentals/Week4/recursiveFibonacci.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/recursiveFibonacci.c.dir/Fundamentals/Week4/recursiveFibonacci.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/recursiveFibonacci.c.dir/Fundamentals/Week4/recursiveFibonacci.c.o   -c /home/kanghee/CLionProjects/courseraCForEveryone/Fundamentals/Week4/recursiveFibonacci.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/recursiveFibonacci.c.dir/Fundamentals/Week4/recursiveFibonacci.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/recursiveFibonacci.c.dir/Fundamentals/Week4/recursiveFibonacci.c.o   -c /Users/kanghee/CLionProjects/courseraCForEveryone/Fundamentals/Week4/recursiveFibonacci.c
 
 CMakeFiles/recursiveFibonacci.c.dir/Fundamentals/Week4/recursiveFibonacci.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/recursiveFibonacci.c.dir/Fundamentals/Week4/recursiveFibonacci.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kanghee/CLionProjects/courseraCForEveryone/Fundamentals/Week4/recursiveFibonacci.c > CMakeFiles/recursiveFibonacci.c.dir/Fundamentals/Week4/recursiveFibonacci.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/kanghee/CLionProjects/courseraCForEveryone/Fundamentals/Week4/recursiveFibonacci.c > CMakeFiles/recursiveFibonacci.c.dir/Fundamentals/Week4/recursiveFibonacci.c.i
 
 CMakeFiles/recursiveFibonacci.c.dir/Fundamentals/Week4/recursiveFibonacci.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/recursiveFibonacci.c.dir/Fundamentals/Week4/recursiveFibonacci.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kanghee/CLionProjects/courseraCForEveryone/Fundamentals/Week4/recursiveFibonacci.c -o CMakeFiles/recursiveFibonacci.c.dir/Fundamentals/Week4/recursiveFibonacci.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/kanghee/CLionProjects/courseraCForEveryone/Fundamentals/Week4/recursiveFibonacci.c -o CMakeFiles/recursiveFibonacci.c.dir/Fundamentals/Week4/recursiveFibonacci.c.s
 
 # Object files for target recursiveFibonacci.c
 recursiveFibonacci_c_OBJECTS = \
@@ -100,7 +100,7 @@ recursiveFibonacci_c_EXTERNAL_OBJECTS =
 recursiveFibonacci.c: CMakeFiles/recursiveFibonacci.c.dir/Fundamentals/Week4/recursiveFibonacci.c.o
 recursiveFibonacci.c: CMakeFiles/recursiveFibonacci.c.dir/build.make
 recursiveFibonacci.c: CMakeFiles/recursiveFibonacci.c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable recursiveFibonacci.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable recursiveFibonacci.c"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/recursiveFibonacci.c.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -113,6 +113,6 @@ CMakeFiles/recursiveFibonacci.c.dir/clean:
 .PHONY : CMakeFiles/recursiveFibonacci.c.dir/clean
 
 CMakeFiles/recursiveFibonacci.c.dir/depend:
-	cd /home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kanghee/CLionProjects/courseraCForEveryone /home/kanghee/CLionProjects/courseraCForEveryone /home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug /home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug /home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles/recursiveFibonacci.c.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/kanghee/CLionProjects/courseraCForEveryone /Users/kanghee/CLionProjects/courseraCForEveryone /Users/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug /Users/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug /Users/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles/recursiveFibonacci.c.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/recursiveFibonacci.c.dir/depend
 

@@ -54,19 +54,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /snap/clion/138/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake
 
 # The command to remove a file.
-RM = /snap/clion/138/bin/cmake/linux/bin/cmake -E rm -f
+RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kanghee/CLionProjects/courseraCForEveryone
+CMAKE_SOURCE_DIR = /Users/kanghee/CLionProjects/courseraCForEveryone
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/recursionFactorial.c.dir/depend.make
@@ -79,16 +79,16 @@ include CMakeFiles/recursionFactorial.c.dir/flags.make
 
 CMakeFiles/recursionFactorial.c.dir/Fundamentals/Week4/recursionFactorial.c.o: CMakeFiles/recursionFactorial.c.dir/flags.make
 CMakeFiles/recursionFactorial.c.dir/Fundamentals/Week4/recursionFactorial.c.o: ../Fundamentals/Week4/recursionFactorial.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/recursionFactorial.c.dir/Fundamentals/Week4/recursionFactorial.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/recursionFactorial.c.dir/Fundamentals/Week4/recursionFactorial.c.o   -c /home/kanghee/CLionProjects/courseraCForEveryone/Fundamentals/Week4/recursionFactorial.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/recursionFactorial.c.dir/Fundamentals/Week4/recursionFactorial.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/recursionFactorial.c.dir/Fundamentals/Week4/recursionFactorial.c.o   -c /Users/kanghee/CLionProjects/courseraCForEveryone/Fundamentals/Week4/recursionFactorial.c
 
 CMakeFiles/recursionFactorial.c.dir/Fundamentals/Week4/recursionFactorial.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/recursionFactorial.c.dir/Fundamentals/Week4/recursionFactorial.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kanghee/CLionProjects/courseraCForEveryone/Fundamentals/Week4/recursionFactorial.c > CMakeFiles/recursionFactorial.c.dir/Fundamentals/Week4/recursionFactorial.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/kanghee/CLionProjects/courseraCForEveryone/Fundamentals/Week4/recursionFactorial.c > CMakeFiles/recursionFactorial.c.dir/Fundamentals/Week4/recursionFactorial.c.i
 
 CMakeFiles/recursionFactorial.c.dir/Fundamentals/Week4/recursionFactorial.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/recursionFactorial.c.dir/Fundamentals/Week4/recursionFactorial.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kanghee/CLionProjects/courseraCForEveryone/Fundamentals/Week4/recursionFactorial.c -o CMakeFiles/recursionFactorial.c.dir/Fundamentals/Week4/recursionFactorial.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/kanghee/CLionProjects/courseraCForEveryone/Fundamentals/Week4/recursionFactorial.c -o CMakeFiles/recursionFactorial.c.dir/Fundamentals/Week4/recursionFactorial.c.s
 
 # Object files for target recursionFactorial.c
 recursionFactorial_c_OBJECTS = \
@@ -100,7 +100,7 @@ recursionFactorial_c_EXTERNAL_OBJECTS =
 recursionFactorial.c: CMakeFiles/recursionFactorial.c.dir/Fundamentals/Week4/recursionFactorial.c.o
 recursionFactorial.c: CMakeFiles/recursionFactorial.c.dir/build.make
 recursionFactorial.c: CMakeFiles/recursionFactorial.c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable recursionFactorial.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable recursionFactorial.c"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/recursionFactorial.c.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -113,6 +113,6 @@ CMakeFiles/recursionFactorial.c.dir/clean:
 .PHONY : CMakeFiles/recursionFactorial.c.dir/clean
 
 CMakeFiles/recursionFactorial.c.dir/depend:
-	cd /home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kanghee/CLionProjects/courseraCForEveryone /home/kanghee/CLionProjects/courseraCForEveryone /home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug /home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug /home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles/recursionFactorial.c.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/kanghee/CLionProjects/courseraCForEveryone /Users/kanghee/CLionProjects/courseraCForEveryone /Users/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug /Users/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug /Users/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles/recursionFactorial.c.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/recursionFactorial.c.dir/depend
 

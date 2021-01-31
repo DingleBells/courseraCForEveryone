@@ -55,63 +55,64 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /snap/clion/138/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake
 
 # The command to remove a file.
-RM = /snap/clion/138/bin/cmake/linux/bin/cmake -E rm -f
+RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kanghee/CLionProjects/courseraCForEveryone
+CMAKE_SOURCE_DIR = /Users/kanghee/CLionProjects/courseraCForEveryone
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/enums.c.dir/all
-all: CMakeFiles/bubbleSort.c.dir/all
-all: CMakeFiles/example.c.dir/all
-all: CMakeFiles/weighElephantSeal.c.dir/all
-all: CMakeFiles/arrayAsParameter.c.dir/all
-all: CMakeFiles/moreMergeSort.c.dir/all
-all: CMakeFiles/recursiveFibonacci.c.dir/all
-all: CMakeFiles/recursionFactorial.c.dir/all
-all: CMakeFiles/assertsMath.c.dir/all
+all: CMakeFiles/week2Assignment.c.dir/all
 all: CMakeFiles/asserts.c.dir/all
-all: CMakeFiles/breakContinueAndSwitch.c.dir/all
-all: CMakeFiles/marathon.c.dir/all
-all: CMakeFiles/fahrenheitToCelsius.c.dir/all
-all: CMakeFiles/simpleArray.c.dir/all
-all: CMakeFiles/findSine.c.dir/all
-all: CMakeFiles/courseraCForEveryone.dir/all
+all: CMakeFiles/enums.c.dir/all
 all: CMakeFiles/preprocessor.c.dir/all
-all: CMakeFiles/FunctionPrototype.c.dir/all
-all: CMakeFiles/circlearea.c.dir/all
-all: CMakeFiles/weather.c.dir/all
-all: CMakeFiles/milesAndYardsToYards.c.dir/all
-all: CMakeFiles/week1add3.dir/all
-all: CMakeFiles/add3.c.dir/all
-all: CMakeFiles/Week1fixDrP.c.dir/all
-all: CMakeFiles/milesAndYardsToKM.c.dir/all
-all: CMakeFiles/sineCosine.c.dir/all
-all: CMakeFiles/printPoem.c.dir/all
-all: CMakeFiles/Week2fixDrP.c.dir/all
-all: CMakeFiles/pointerCode.c.dir/all
-all: CMakeFiles/runningAverage.c.dir/all
+all: CMakeFiles/example.c.dir/all
 all: CMakeFiles/mergeSort.c.dir/all
-all: CMakeFiles/simpleForLoop.c.dir/all
-all: CMakeFiles/forCntChar.c.dir/all
-all: CMakeFiles/week3DrPFix.c.dir/all
-all: CMakeFiles/ternaryOperator.c.dir/all
-all: CMakeFiles/whleCntChar.c.dir/all
-all: CMakeFiles/speedingTicket.c.dir/all
 all: CMakeFiles/valentinesWhile.c.dir/all
+all: CMakeFiles/speedingTicket.c.dir/all
+all: CMakeFiles/bubbleSort.c.dir/all
+all: CMakeFiles/simpleArray.c.dir/all
+all: CMakeFiles/courseraCForEveryone.dir/all
+all: CMakeFiles/ternaryOperator.c.dir/all
+all: CMakeFiles/sineCosine.c.dir/all
+all: CMakeFiles/breakContinueAndSwitch.c.dir/all
+all: CMakeFiles/milesAndYardsToYards.c.dir/all
+all: CMakeFiles/week3DrPFix.c.dir/all
+all: CMakeFiles/weighElephantSeal.c.dir/all
+all: CMakeFiles/runningAverage.c.dir/all
+all: CMakeFiles/pointerCode.c.dir/all
+all: CMakeFiles/arrayAsParameter.c.dir/all
+all: CMakeFiles/recursionFactorial.c.dir/all
+all: CMakeFiles/Week2fixDrP.c.dir/all
+all: CMakeFiles/forCntChar.c.dir/all
+all: CMakeFiles/circlearea.c.dir/all
+all: CMakeFiles/whleCntChar.c.dir/all
+all: CMakeFiles/marathon.c.dir/all
+all: CMakeFiles/assertsMath.c.dir/all
+all: CMakeFiles/weather.c.dir/all
+all: CMakeFiles/add3.c.dir/all
+all: CMakeFiles/findSine.c.dir/all
+all: CMakeFiles/recursiveFibonacci.c.dir/all
+all: CMakeFiles/Week1fixDrP.c.dir/all
 all: CMakeFiles/whileLoop.c.dir/all
+all: CMakeFiles/simpleForLoop.c.dir/all
+all: CMakeFiles/milesAndYardsToKM.c.dir/all
+all: CMakeFiles/moreMergeSort.c.dir/all
+all: CMakeFiles/printPoem.c.dir/all
+all: CMakeFiles/week1add3.dir/all
+all: CMakeFiles/FunctionPrototype.c.dir/all
+all: CMakeFiles/fahrenheitToCelsius.c.dir/all
 
 .PHONY : all
 
@@ -121,290 +122,75 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/enums.c.dir/clean
-clean: CMakeFiles/bubbleSort.c.dir/clean
-clean: CMakeFiles/example.c.dir/clean
-clean: CMakeFiles/weighElephantSeal.c.dir/clean
-clean: CMakeFiles/arrayAsParameter.c.dir/clean
-clean: CMakeFiles/moreMergeSort.c.dir/clean
-clean: CMakeFiles/recursiveFibonacci.c.dir/clean
-clean: CMakeFiles/recursionFactorial.c.dir/clean
-clean: CMakeFiles/assertsMath.c.dir/clean
+clean: CMakeFiles/week2Assignment.c.dir/clean
 clean: CMakeFiles/asserts.c.dir/clean
-clean: CMakeFiles/breakContinueAndSwitch.c.dir/clean
-clean: CMakeFiles/marathon.c.dir/clean
-clean: CMakeFiles/fahrenheitToCelsius.c.dir/clean
-clean: CMakeFiles/simpleArray.c.dir/clean
-clean: CMakeFiles/findSine.c.dir/clean
-clean: CMakeFiles/courseraCForEveryone.dir/clean
+clean: CMakeFiles/enums.c.dir/clean
 clean: CMakeFiles/preprocessor.c.dir/clean
-clean: CMakeFiles/FunctionPrototype.c.dir/clean
-clean: CMakeFiles/circlearea.c.dir/clean
-clean: CMakeFiles/weather.c.dir/clean
-clean: CMakeFiles/milesAndYardsToYards.c.dir/clean
-clean: CMakeFiles/week1add3.dir/clean
-clean: CMakeFiles/add3.c.dir/clean
-clean: CMakeFiles/Week1fixDrP.c.dir/clean
-clean: CMakeFiles/milesAndYardsToKM.c.dir/clean
-clean: CMakeFiles/sineCosine.c.dir/clean
-clean: CMakeFiles/printPoem.c.dir/clean
-clean: CMakeFiles/Week2fixDrP.c.dir/clean
-clean: CMakeFiles/pointerCode.c.dir/clean
-clean: CMakeFiles/runningAverage.c.dir/clean
+clean: CMakeFiles/example.c.dir/clean
 clean: CMakeFiles/mergeSort.c.dir/clean
-clean: CMakeFiles/simpleForLoop.c.dir/clean
-clean: CMakeFiles/forCntChar.c.dir/clean
-clean: CMakeFiles/week3DrPFix.c.dir/clean
-clean: CMakeFiles/ternaryOperator.c.dir/clean
-clean: CMakeFiles/whleCntChar.c.dir/clean
-clean: CMakeFiles/speedingTicket.c.dir/clean
 clean: CMakeFiles/valentinesWhile.c.dir/clean
+clean: CMakeFiles/speedingTicket.c.dir/clean
+clean: CMakeFiles/bubbleSort.c.dir/clean
+clean: CMakeFiles/simpleArray.c.dir/clean
+clean: CMakeFiles/courseraCForEveryone.dir/clean
+clean: CMakeFiles/ternaryOperator.c.dir/clean
+clean: CMakeFiles/sineCosine.c.dir/clean
+clean: CMakeFiles/breakContinueAndSwitch.c.dir/clean
+clean: CMakeFiles/milesAndYardsToYards.c.dir/clean
+clean: CMakeFiles/week3DrPFix.c.dir/clean
+clean: CMakeFiles/weighElephantSeal.c.dir/clean
+clean: CMakeFiles/runningAverage.c.dir/clean
+clean: CMakeFiles/pointerCode.c.dir/clean
+clean: CMakeFiles/arrayAsParameter.c.dir/clean
+clean: CMakeFiles/recursionFactorial.c.dir/clean
+clean: CMakeFiles/Week2fixDrP.c.dir/clean
+clean: CMakeFiles/forCntChar.c.dir/clean
+clean: CMakeFiles/circlearea.c.dir/clean
+clean: CMakeFiles/whleCntChar.c.dir/clean
+clean: CMakeFiles/marathon.c.dir/clean
+clean: CMakeFiles/assertsMath.c.dir/clean
+clean: CMakeFiles/weather.c.dir/clean
+clean: CMakeFiles/add3.c.dir/clean
+clean: CMakeFiles/findSine.c.dir/clean
+clean: CMakeFiles/recursiveFibonacci.c.dir/clean
+clean: CMakeFiles/Week1fixDrP.c.dir/clean
 clean: CMakeFiles/whileLoop.c.dir/clean
+clean: CMakeFiles/simpleForLoop.c.dir/clean
+clean: CMakeFiles/milesAndYardsToKM.c.dir/clean
+clean: CMakeFiles/moreMergeSort.c.dir/clean
+clean: CMakeFiles/printPoem.c.dir/clean
+clean: CMakeFiles/week1add3.dir/clean
+clean: CMakeFiles/FunctionPrototype.c.dir/clean
+clean: CMakeFiles/fahrenheitToCelsius.c.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/enums.c.dir
+# Target rules for target CMakeFiles/week2Assignment.c.dir
 
 # All Build rule for target.
-CMakeFiles/enums.c.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/enums.c.dir/build.make CMakeFiles/enums.c.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/enums.c.dir/build.make CMakeFiles/enums.c.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles --progress-num=23,24 "Built target enums.c"
-.PHONY : CMakeFiles/enums.c.dir/all
+CMakeFiles/week2Assignment.c.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week2Assignment.c.dir/build.make CMakeFiles/week2Assignment.c.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week2Assignment.c.dir/build.make CMakeFiles/week2Assignment.c.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles --progress-num=71,72 "Built target week2Assignment.c"
+.PHONY : CMakeFiles/week2Assignment.c.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/enums.c.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/enums.c.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/enums.c.dir/rule
+CMakeFiles/week2Assignment.c.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/week2Assignment.c.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/week2Assignment.c.dir/rule
 
 # Convenience name for target.
-enums.c: CMakeFiles/enums.c.dir/rule
+week2Assignment.c: CMakeFiles/week2Assignment.c.dir/rule
 
-.PHONY : enums.c
-
-# clean rule for target.
-CMakeFiles/enums.c.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/enums.c.dir/build.make CMakeFiles/enums.c.dir/clean
-.PHONY : CMakeFiles/enums.c.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/bubbleSort.c.dir
-
-# All Build rule for target.
-CMakeFiles/bubbleSort.c.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/bubbleSort.c.dir/build.make CMakeFiles/bubbleSort.c.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/bubbleSort.c.dir/build.make CMakeFiles/bubbleSort.c.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles --progress-num=17,18 "Built target bubbleSort.c"
-.PHONY : CMakeFiles/bubbleSort.c.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/bubbleSort.c.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/bubbleSort.c.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/bubbleSort.c.dir/rule
-
-# Convenience name for target.
-bubbleSort.c: CMakeFiles/bubbleSort.c.dir/rule
-
-.PHONY : bubbleSort.c
+.PHONY : week2Assignment.c
 
 # clean rule for target.
-CMakeFiles/bubbleSort.c.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/bubbleSort.c.dir/build.make CMakeFiles/bubbleSort.c.dir/clean
-.PHONY : CMakeFiles/bubbleSort.c.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/example.c.dir
-
-# All Build rule for target.
-CMakeFiles/example.c.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/example.c.dir/build.make CMakeFiles/example.c.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/example.c.dir/build.make CMakeFiles/example.c.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles --progress-num=25,26 "Built target example.c"
-.PHONY : CMakeFiles/example.c.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/example.c.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/example.c.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/example.c.dir/rule
-
-# Convenience name for target.
-example.c: CMakeFiles/example.c.dir/rule
-
-.PHONY : example.c
-
-# clean rule for target.
-CMakeFiles/example.c.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/example.c.dir/build.make CMakeFiles/example.c.dir/clean
-.PHONY : CMakeFiles/example.c.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/weighElephantSeal.c.dir
-
-# All Build rule for target.
-CMakeFiles/weighElephantSeal.c.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/weighElephantSeal.c.dir/build.make CMakeFiles/weighElephantSeal.c.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/weighElephantSeal.c.dir/build.make CMakeFiles/weighElephantSeal.c.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles --progress-num=73,74 "Built target weighElephantSeal.c"
-.PHONY : CMakeFiles/weighElephantSeal.c.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/weighElephantSeal.c.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/weighElephantSeal.c.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/weighElephantSeal.c.dir/rule
-
-# Convenience name for target.
-weighElephantSeal.c: CMakeFiles/weighElephantSeal.c.dir/rule
-
-.PHONY : weighElephantSeal.c
-
-# clean rule for target.
-CMakeFiles/weighElephantSeal.c.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/weighElephantSeal.c.dir/build.make CMakeFiles/weighElephantSeal.c.dir/clean
-.PHONY : CMakeFiles/weighElephantSeal.c.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/arrayAsParameter.c.dir
-
-# All Build rule for target.
-CMakeFiles/arrayAsParameter.c.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/arrayAsParameter.c.dir/build.make CMakeFiles/arrayAsParameter.c.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/arrayAsParameter.c.dir/build.make CMakeFiles/arrayAsParameter.c.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target arrayAsParameter.c"
-.PHONY : CMakeFiles/arrayAsParameter.c.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/arrayAsParameter.c.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/arrayAsParameter.c.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/arrayAsParameter.c.dir/rule
-
-# Convenience name for target.
-arrayAsParameter.c: CMakeFiles/arrayAsParameter.c.dir/rule
-
-.PHONY : arrayAsParameter.c
-
-# clean rule for target.
-CMakeFiles/arrayAsParameter.c.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/arrayAsParameter.c.dir/build.make CMakeFiles/arrayAsParameter.c.dir/clean
-.PHONY : CMakeFiles/arrayAsParameter.c.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/moreMergeSort.c.dir
-
-# All Build rule for target.
-CMakeFiles/moreMergeSort.c.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/moreMergeSort.c.dir/build.make CMakeFiles/moreMergeSort.c.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/moreMergeSort.c.dir/build.make CMakeFiles/moreMergeSort.c.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles --progress-num=41,42 "Built target moreMergeSort.c"
-.PHONY : CMakeFiles/moreMergeSort.c.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/moreMergeSort.c.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/moreMergeSort.c.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/moreMergeSort.c.dir/rule
-
-# Convenience name for target.
-moreMergeSort.c: CMakeFiles/moreMergeSort.c.dir/rule
-
-.PHONY : moreMergeSort.c
-
-# clean rule for target.
-CMakeFiles/moreMergeSort.c.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/moreMergeSort.c.dir/build.make CMakeFiles/moreMergeSort.c.dir/clean
-.PHONY : CMakeFiles/moreMergeSort.c.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/recursiveFibonacci.c.dir
-
-# All Build rule for target.
-CMakeFiles/recursiveFibonacci.c.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/recursiveFibonacci.c.dir/build.make CMakeFiles/recursiveFibonacci.c.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/recursiveFibonacci.c.dir/build.make CMakeFiles/recursiveFibonacci.c.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles --progress-num=51,52 "Built target recursiveFibonacci.c"
-.PHONY : CMakeFiles/recursiveFibonacci.c.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/recursiveFibonacci.c.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/recursiveFibonacci.c.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/recursiveFibonacci.c.dir/rule
-
-# Convenience name for target.
-recursiveFibonacci.c: CMakeFiles/recursiveFibonacci.c.dir/rule
-
-.PHONY : recursiveFibonacci.c
-
-# clean rule for target.
-CMakeFiles/recursiveFibonacci.c.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/recursiveFibonacci.c.dir/build.make CMakeFiles/recursiveFibonacci.c.dir/clean
-.PHONY : CMakeFiles/recursiveFibonacci.c.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/recursionFactorial.c.dir
-
-# All Build rule for target.
-CMakeFiles/recursionFactorial.c.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/recursionFactorial.c.dir/build.make CMakeFiles/recursionFactorial.c.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/recursionFactorial.c.dir/build.make CMakeFiles/recursionFactorial.c.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles --progress-num=49,50 "Built target recursionFactorial.c"
-.PHONY : CMakeFiles/recursionFactorial.c.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/recursionFactorial.c.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/recursionFactorial.c.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/recursionFactorial.c.dir/rule
-
-# Convenience name for target.
-recursionFactorial.c: CMakeFiles/recursionFactorial.c.dir/rule
-
-.PHONY : recursionFactorial.c
-
-# clean rule for target.
-CMakeFiles/recursionFactorial.c.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/recursionFactorial.c.dir/build.make CMakeFiles/recursionFactorial.c.dir/clean
-.PHONY : CMakeFiles/recursionFactorial.c.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/assertsMath.c.dir
-
-# All Build rule for target.
-CMakeFiles/assertsMath.c.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/assertsMath.c.dir/build.make CMakeFiles/assertsMath.c.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/assertsMath.c.dir/build.make CMakeFiles/assertsMath.c.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles --progress-num=13,14 "Built target assertsMath.c"
-.PHONY : CMakeFiles/assertsMath.c.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/assertsMath.c.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/assertsMath.c.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/assertsMath.c.dir/rule
-
-# Convenience name for target.
-assertsMath.c: CMakeFiles/assertsMath.c.dir/rule
-
-.PHONY : assertsMath.c
-
-# clean rule for target.
-CMakeFiles/assertsMath.c.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/assertsMath.c.dir/build.make CMakeFiles/assertsMath.c.dir/clean
-.PHONY : CMakeFiles/assertsMath.c.dir/clean
+CMakeFiles/week2Assignment.c.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week2Assignment.c.dir/build.make CMakeFiles/week2Assignment.c.dir/clean
+.PHONY : CMakeFiles/week2Assignment.c.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/asserts.c.dir
@@ -413,14 +199,14 @@ CMakeFiles/assertsMath.c.dir/clean:
 CMakeFiles/asserts.c.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/asserts.c.dir/build.make CMakeFiles/asserts.c.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/asserts.c.dir/build.make CMakeFiles/asserts.c.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles --progress-num=11,12 "Built target asserts.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles --progress-num=11,12 "Built target asserts.c"
 .PHONY : CMakeFiles/asserts.c.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/asserts.c.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/asserts.c.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/asserts.c.dir/rule
 
 # Convenience name for target.
@@ -434,166 +220,31 @@ CMakeFiles/asserts.c.dir/clean:
 .PHONY : CMakeFiles/asserts.c.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/breakContinueAndSwitch.c.dir
+# Target rules for target CMakeFiles/enums.c.dir
 
 # All Build rule for target.
-CMakeFiles/breakContinueAndSwitch.c.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/breakContinueAndSwitch.c.dir/build.make CMakeFiles/breakContinueAndSwitch.c.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/breakContinueAndSwitch.c.dir/build.make CMakeFiles/breakContinueAndSwitch.c.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles --progress-num=15,16 "Built target breakContinueAndSwitch.c"
-.PHONY : CMakeFiles/breakContinueAndSwitch.c.dir/all
+CMakeFiles/enums.c.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/enums.c.dir/build.make CMakeFiles/enums.c.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/enums.c.dir/build.make CMakeFiles/enums.c.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles --progress-num=23,24 "Built target enums.c"
+.PHONY : CMakeFiles/enums.c.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/breakContinueAndSwitch.c.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/breakContinueAndSwitch.c.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/breakContinueAndSwitch.c.dir/rule
+CMakeFiles/enums.c.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/enums.c.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/enums.c.dir/rule
 
 # Convenience name for target.
-breakContinueAndSwitch.c: CMakeFiles/breakContinueAndSwitch.c.dir/rule
+enums.c: CMakeFiles/enums.c.dir/rule
 
-.PHONY : breakContinueAndSwitch.c
-
-# clean rule for target.
-CMakeFiles/breakContinueAndSwitch.c.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/breakContinueAndSwitch.c.dir/build.make CMakeFiles/breakContinueAndSwitch.c.dir/clean
-.PHONY : CMakeFiles/breakContinueAndSwitch.c.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/marathon.c.dir
-
-# All Build rule for target.
-CMakeFiles/marathon.c.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/marathon.c.dir/build.make CMakeFiles/marathon.c.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/marathon.c.dir/build.make CMakeFiles/marathon.c.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles --progress-num=33,34 "Built target marathon.c"
-.PHONY : CMakeFiles/marathon.c.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/marathon.c.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/marathon.c.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/marathon.c.dir/rule
-
-# Convenience name for target.
-marathon.c: CMakeFiles/marathon.c.dir/rule
-
-.PHONY : marathon.c
+.PHONY : enums.c
 
 # clean rule for target.
-CMakeFiles/marathon.c.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/marathon.c.dir/build.make CMakeFiles/marathon.c.dir/clean
-.PHONY : CMakeFiles/marathon.c.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/fahrenheitToCelsius.c.dir
-
-# All Build rule for target.
-CMakeFiles/fahrenheitToCelsius.c.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/fahrenheitToCelsius.c.dir/build.make CMakeFiles/fahrenheitToCelsius.c.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/fahrenheitToCelsius.c.dir/build.make CMakeFiles/fahrenheitToCelsius.c.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles --progress-num=27,28 "Built target fahrenheitToCelsius.c"
-.PHONY : CMakeFiles/fahrenheitToCelsius.c.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/fahrenheitToCelsius.c.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/fahrenheitToCelsius.c.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/fahrenheitToCelsius.c.dir/rule
-
-# Convenience name for target.
-fahrenheitToCelsius.c: CMakeFiles/fahrenheitToCelsius.c.dir/rule
-
-.PHONY : fahrenheitToCelsius.c
-
-# clean rule for target.
-CMakeFiles/fahrenheitToCelsius.c.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/fahrenheitToCelsius.c.dir/build.make CMakeFiles/fahrenheitToCelsius.c.dir/clean
-.PHONY : CMakeFiles/fahrenheitToCelsius.c.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/simpleArray.c.dir
-
-# All Build rule for target.
-CMakeFiles/simpleArray.c.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/simpleArray.c.dir/build.make CMakeFiles/simpleArray.c.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/simpleArray.c.dir/build.make CMakeFiles/simpleArray.c.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles --progress-num=55,56 "Built target simpleArray.c"
-.PHONY : CMakeFiles/simpleArray.c.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/simpleArray.c.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/simpleArray.c.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/simpleArray.c.dir/rule
-
-# Convenience name for target.
-simpleArray.c: CMakeFiles/simpleArray.c.dir/rule
-
-.PHONY : simpleArray.c
-
-# clean rule for target.
-CMakeFiles/simpleArray.c.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/simpleArray.c.dir/build.make CMakeFiles/simpleArray.c.dir/clean
-.PHONY : CMakeFiles/simpleArray.c.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/findSine.c.dir
-
-# All Build rule for target.
-CMakeFiles/findSine.c.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/findSine.c.dir/build.make CMakeFiles/findSine.c.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/findSine.c.dir/build.make CMakeFiles/findSine.c.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles --progress-num=29,30 "Built target findSine.c"
-.PHONY : CMakeFiles/findSine.c.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/findSine.c.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/findSine.c.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/findSine.c.dir/rule
-
-# Convenience name for target.
-findSine.c: CMakeFiles/findSine.c.dir/rule
-
-.PHONY : findSine.c
-
-# clean rule for target.
-CMakeFiles/findSine.c.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/findSine.c.dir/build.make CMakeFiles/findSine.c.dir/clean
-.PHONY : CMakeFiles/findSine.c.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/courseraCForEveryone.dir
-
-# All Build rule for target.
-CMakeFiles/courseraCForEveryone.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/courseraCForEveryone.dir/build.make CMakeFiles/courseraCForEveryone.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/courseraCForEveryone.dir/build.make CMakeFiles/courseraCForEveryone.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles --progress-num=21,22 "Built target courseraCForEveryone"
-.PHONY : CMakeFiles/courseraCForEveryone.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/courseraCForEveryone.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/courseraCForEveryone.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/courseraCForEveryone.dir/rule
-
-# Convenience name for target.
-courseraCForEveryone: CMakeFiles/courseraCForEveryone.dir/rule
-
-.PHONY : courseraCForEveryone
-
-# clean rule for target.
-CMakeFiles/courseraCForEveryone.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/courseraCForEveryone.dir/build.make CMakeFiles/courseraCForEveryone.dir/clean
-.PHONY : CMakeFiles/courseraCForEveryone.dir/clean
+CMakeFiles/enums.c.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/enums.c.dir/build.make CMakeFiles/enums.c.dir/clean
+.PHONY : CMakeFiles/enums.c.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/preprocessor.c.dir
@@ -602,14 +253,14 @@ CMakeFiles/courseraCForEveryone.dir/clean:
 CMakeFiles/preprocessor.c.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/preprocessor.c.dir/build.make CMakeFiles/preprocessor.c.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/preprocessor.c.dir/build.make CMakeFiles/preprocessor.c.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles --progress-num=45,46 "Built target preprocessor.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles --progress-num=45,46 "Built target preprocessor.c"
 .PHONY : CMakeFiles/preprocessor.c.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/preprocessor.c.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/preprocessor.c.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/preprocessor.c.dir/rule
 
 # Convenience name for target.
@@ -623,355 +274,31 @@ CMakeFiles/preprocessor.c.dir/clean:
 .PHONY : CMakeFiles/preprocessor.c.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/FunctionPrototype.c.dir
+# Target rules for target CMakeFiles/example.c.dir
 
 # All Build rule for target.
-CMakeFiles/FunctionPrototype.c.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/FunctionPrototype.c.dir/build.make CMakeFiles/FunctionPrototype.c.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/FunctionPrototype.c.dir/build.make CMakeFiles/FunctionPrototype.c.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target FunctionPrototype.c"
-.PHONY : CMakeFiles/FunctionPrototype.c.dir/all
+CMakeFiles/example.c.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/example.c.dir/build.make CMakeFiles/example.c.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/example.c.dir/build.make CMakeFiles/example.c.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles --progress-num=25,26 "Built target example.c"
+.PHONY : CMakeFiles/example.c.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/FunctionPrototype.c.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/FunctionPrototype.c.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/FunctionPrototype.c.dir/rule
+CMakeFiles/example.c.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/example.c.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/example.c.dir/rule
 
 # Convenience name for target.
-FunctionPrototype.c: CMakeFiles/FunctionPrototype.c.dir/rule
+example.c: CMakeFiles/example.c.dir/rule
 
-.PHONY : FunctionPrototype.c
-
-# clean rule for target.
-CMakeFiles/FunctionPrototype.c.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/FunctionPrototype.c.dir/build.make CMakeFiles/FunctionPrototype.c.dir/clean
-.PHONY : CMakeFiles/FunctionPrototype.c.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/circlearea.c.dir
-
-# All Build rule for target.
-CMakeFiles/circlearea.c.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/circlearea.c.dir/build.make CMakeFiles/circlearea.c.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/circlearea.c.dir/build.make CMakeFiles/circlearea.c.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles --progress-num=19,20 "Built target circlearea.c"
-.PHONY : CMakeFiles/circlearea.c.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/circlearea.c.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/circlearea.c.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/circlearea.c.dir/rule
-
-# Convenience name for target.
-circlearea.c: CMakeFiles/circlearea.c.dir/rule
-
-.PHONY : circlearea.c
+.PHONY : example.c
 
 # clean rule for target.
-CMakeFiles/circlearea.c.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/circlearea.c.dir/build.make CMakeFiles/circlearea.c.dir/clean
-.PHONY : CMakeFiles/circlearea.c.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/weather.c.dir
-
-# All Build rule for target.
-CMakeFiles/weather.c.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/weather.c.dir/build.make CMakeFiles/weather.c.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/weather.c.dir/build.make CMakeFiles/weather.c.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles --progress-num=67,68 "Built target weather.c"
-.PHONY : CMakeFiles/weather.c.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/weather.c.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/weather.c.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/weather.c.dir/rule
-
-# Convenience name for target.
-weather.c: CMakeFiles/weather.c.dir/rule
-
-.PHONY : weather.c
-
-# clean rule for target.
-CMakeFiles/weather.c.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/weather.c.dir/build.make CMakeFiles/weather.c.dir/clean
-.PHONY : CMakeFiles/weather.c.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/milesAndYardsToYards.c.dir
-
-# All Build rule for target.
-CMakeFiles/milesAndYardsToYards.c.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/milesAndYardsToYards.c.dir/build.make CMakeFiles/milesAndYardsToYards.c.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/milesAndYardsToYards.c.dir/build.make CMakeFiles/milesAndYardsToYards.c.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles --progress-num=39,40 "Built target milesAndYardsToYards.c"
-.PHONY : CMakeFiles/milesAndYardsToYards.c.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/milesAndYardsToYards.c.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/milesAndYardsToYards.c.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/milesAndYardsToYards.c.dir/rule
-
-# Convenience name for target.
-milesAndYardsToYards.c: CMakeFiles/milesAndYardsToYards.c.dir/rule
-
-.PHONY : milesAndYardsToYards.c
-
-# clean rule for target.
-CMakeFiles/milesAndYardsToYards.c.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/milesAndYardsToYards.c.dir/build.make CMakeFiles/milesAndYardsToYards.c.dir/clean
-.PHONY : CMakeFiles/milesAndYardsToYards.c.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/week1add3.dir
-
-# All Build rule for target.
-CMakeFiles/week1add3.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week1add3.dir/build.make CMakeFiles/week1add3.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week1add3.dir/build.make CMakeFiles/week1add3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles --progress-num=69,70 "Built target week1add3"
-.PHONY : CMakeFiles/week1add3.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/week1add3.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/week1add3.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/week1add3.dir/rule
-
-# Convenience name for target.
-week1add3: CMakeFiles/week1add3.dir/rule
-
-.PHONY : week1add3
-
-# clean rule for target.
-CMakeFiles/week1add3.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week1add3.dir/build.make CMakeFiles/week1add3.dir/clean
-.PHONY : CMakeFiles/week1add3.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/add3.c.dir
-
-# All Build rule for target.
-CMakeFiles/add3.c.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/add3.c.dir/build.make CMakeFiles/add3.c.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/add3.c.dir/build.make CMakeFiles/add3.c.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target add3.c"
-.PHONY : CMakeFiles/add3.c.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/add3.c.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/add3.c.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/add3.c.dir/rule
-
-# Convenience name for target.
-add3.c: CMakeFiles/add3.c.dir/rule
-
-.PHONY : add3.c
-
-# clean rule for target.
-CMakeFiles/add3.c.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/add3.c.dir/build.make CMakeFiles/add3.c.dir/clean
-.PHONY : CMakeFiles/add3.c.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/Week1fixDrP.c.dir
-
-# All Build rule for target.
-CMakeFiles/Week1fixDrP.c.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Week1fixDrP.c.dir/build.make CMakeFiles/Week1fixDrP.c.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Week1fixDrP.c.dir/build.make CMakeFiles/Week1fixDrP.c.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target Week1fixDrP.c"
-.PHONY : CMakeFiles/Week1fixDrP.c.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/Week1fixDrP.c.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Week1fixDrP.c.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/Week1fixDrP.c.dir/rule
-
-# Convenience name for target.
-Week1fixDrP.c: CMakeFiles/Week1fixDrP.c.dir/rule
-
-.PHONY : Week1fixDrP.c
-
-# clean rule for target.
-CMakeFiles/Week1fixDrP.c.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Week1fixDrP.c.dir/build.make CMakeFiles/Week1fixDrP.c.dir/clean
-.PHONY : CMakeFiles/Week1fixDrP.c.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/milesAndYardsToKM.c.dir
-
-# All Build rule for target.
-CMakeFiles/milesAndYardsToKM.c.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/milesAndYardsToKM.c.dir/build.make CMakeFiles/milesAndYardsToKM.c.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/milesAndYardsToKM.c.dir/build.make CMakeFiles/milesAndYardsToKM.c.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles --progress-num=37,38 "Built target milesAndYardsToKM.c"
-.PHONY : CMakeFiles/milesAndYardsToKM.c.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/milesAndYardsToKM.c.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/milesAndYardsToKM.c.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/milesAndYardsToKM.c.dir/rule
-
-# Convenience name for target.
-milesAndYardsToKM.c: CMakeFiles/milesAndYardsToKM.c.dir/rule
-
-.PHONY : milesAndYardsToKM.c
-
-# clean rule for target.
-CMakeFiles/milesAndYardsToKM.c.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/milesAndYardsToKM.c.dir/build.make CMakeFiles/milesAndYardsToKM.c.dir/clean
-.PHONY : CMakeFiles/milesAndYardsToKM.c.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/sineCosine.c.dir
-
-# All Build rule for target.
-CMakeFiles/sineCosine.c.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sineCosine.c.dir/build.make CMakeFiles/sineCosine.c.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sineCosine.c.dir/build.make CMakeFiles/sineCosine.c.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles --progress-num=59,60 "Built target sineCosine.c"
-.PHONY : CMakeFiles/sineCosine.c.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/sineCosine.c.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/sineCosine.c.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/sineCosine.c.dir/rule
-
-# Convenience name for target.
-sineCosine.c: CMakeFiles/sineCosine.c.dir/rule
-
-.PHONY : sineCosine.c
-
-# clean rule for target.
-CMakeFiles/sineCosine.c.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sineCosine.c.dir/build.make CMakeFiles/sineCosine.c.dir/clean
-.PHONY : CMakeFiles/sineCosine.c.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/printPoem.c.dir
-
-# All Build rule for target.
-CMakeFiles/printPoem.c.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/printPoem.c.dir/build.make CMakeFiles/printPoem.c.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/printPoem.c.dir/build.make CMakeFiles/printPoem.c.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles --progress-num=47,48 "Built target printPoem.c"
-.PHONY : CMakeFiles/printPoem.c.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/printPoem.c.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/printPoem.c.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/printPoem.c.dir/rule
-
-# Convenience name for target.
-printPoem.c: CMakeFiles/printPoem.c.dir/rule
-
-.PHONY : printPoem.c
-
-# clean rule for target.
-CMakeFiles/printPoem.c.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/printPoem.c.dir/build.make CMakeFiles/printPoem.c.dir/clean
-.PHONY : CMakeFiles/printPoem.c.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/Week2fixDrP.c.dir
-
-# All Build rule for target.
-CMakeFiles/Week2fixDrP.c.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Week2fixDrP.c.dir/build.make CMakeFiles/Week2fixDrP.c.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Week2fixDrP.c.dir/build.make CMakeFiles/Week2fixDrP.c.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles --progress-num=5,6 "Built target Week2fixDrP.c"
-.PHONY : CMakeFiles/Week2fixDrP.c.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/Week2fixDrP.c.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Week2fixDrP.c.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/Week2fixDrP.c.dir/rule
-
-# Convenience name for target.
-Week2fixDrP.c: CMakeFiles/Week2fixDrP.c.dir/rule
-
-.PHONY : Week2fixDrP.c
-
-# clean rule for target.
-CMakeFiles/Week2fixDrP.c.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Week2fixDrP.c.dir/build.make CMakeFiles/Week2fixDrP.c.dir/clean
-.PHONY : CMakeFiles/Week2fixDrP.c.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/pointerCode.c.dir
-
-# All Build rule for target.
-CMakeFiles/pointerCode.c.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointerCode.c.dir/build.make CMakeFiles/pointerCode.c.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointerCode.c.dir/build.make CMakeFiles/pointerCode.c.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles --progress-num=43,44 "Built target pointerCode.c"
-.PHONY : CMakeFiles/pointerCode.c.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/pointerCode.c.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/pointerCode.c.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/pointerCode.c.dir/rule
-
-# Convenience name for target.
-pointerCode.c: CMakeFiles/pointerCode.c.dir/rule
-
-.PHONY : pointerCode.c
-
-# clean rule for target.
-CMakeFiles/pointerCode.c.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointerCode.c.dir/build.make CMakeFiles/pointerCode.c.dir/clean
-.PHONY : CMakeFiles/pointerCode.c.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/runningAverage.c.dir
-
-# All Build rule for target.
-CMakeFiles/runningAverage.c.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/runningAverage.c.dir/build.make CMakeFiles/runningAverage.c.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/runningAverage.c.dir/build.make CMakeFiles/runningAverage.c.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles --progress-num=53,54 "Built target runningAverage.c"
-.PHONY : CMakeFiles/runningAverage.c.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/runningAverage.c.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/runningAverage.c.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/runningAverage.c.dir/rule
-
-# Convenience name for target.
-runningAverage.c: CMakeFiles/runningAverage.c.dir/rule
-
-.PHONY : runningAverage.c
-
-# clean rule for target.
-CMakeFiles/runningAverage.c.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/runningAverage.c.dir/build.make CMakeFiles/runningAverage.c.dir/clean
-.PHONY : CMakeFiles/runningAverage.c.dir/clean
+CMakeFiles/example.c.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/example.c.dir/build.make CMakeFiles/example.c.dir/clean
+.PHONY : CMakeFiles/example.c.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/mergeSort.c.dir
@@ -980,14 +307,14 @@ CMakeFiles/runningAverage.c.dir/clean:
 CMakeFiles/mergeSort.c.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mergeSort.c.dir/build.make CMakeFiles/mergeSort.c.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mergeSort.c.dir/build.make CMakeFiles/mergeSort.c.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles --progress-num=35,36 "Built target mergeSort.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles --progress-num=35,36 "Built target mergeSort.c"
 .PHONY : CMakeFiles/mergeSort.c.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/mergeSort.c.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/mergeSort.c.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/mergeSort.c.dir/rule
 
 # Convenience name for target.
@@ -1001,182 +328,20 @@ CMakeFiles/mergeSort.c.dir/clean:
 .PHONY : CMakeFiles/mergeSort.c.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/simpleForLoop.c.dir
-
-# All Build rule for target.
-CMakeFiles/simpleForLoop.c.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/simpleForLoop.c.dir/build.make CMakeFiles/simpleForLoop.c.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/simpleForLoop.c.dir/build.make CMakeFiles/simpleForLoop.c.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles --progress-num=57,58 "Built target simpleForLoop.c"
-.PHONY : CMakeFiles/simpleForLoop.c.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/simpleForLoop.c.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/simpleForLoop.c.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/simpleForLoop.c.dir/rule
-
-# Convenience name for target.
-simpleForLoop.c: CMakeFiles/simpleForLoop.c.dir/rule
-
-.PHONY : simpleForLoop.c
-
-# clean rule for target.
-CMakeFiles/simpleForLoop.c.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/simpleForLoop.c.dir/build.make CMakeFiles/simpleForLoop.c.dir/clean
-.PHONY : CMakeFiles/simpleForLoop.c.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/forCntChar.c.dir
-
-# All Build rule for target.
-CMakeFiles/forCntChar.c.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/forCntChar.c.dir/build.make CMakeFiles/forCntChar.c.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/forCntChar.c.dir/build.make CMakeFiles/forCntChar.c.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles --progress-num=31,32 "Built target forCntChar.c"
-.PHONY : CMakeFiles/forCntChar.c.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/forCntChar.c.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/forCntChar.c.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/forCntChar.c.dir/rule
-
-# Convenience name for target.
-forCntChar.c: CMakeFiles/forCntChar.c.dir/rule
-
-.PHONY : forCntChar.c
-
-# clean rule for target.
-CMakeFiles/forCntChar.c.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/forCntChar.c.dir/build.make CMakeFiles/forCntChar.c.dir/clean
-.PHONY : CMakeFiles/forCntChar.c.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/week3DrPFix.c.dir
-
-# All Build rule for target.
-CMakeFiles/week3DrPFix.c.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week3DrPFix.c.dir/build.make CMakeFiles/week3DrPFix.c.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week3DrPFix.c.dir/build.make CMakeFiles/week3DrPFix.c.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles --progress-num=71,72 "Built target week3DrPFix.c"
-.PHONY : CMakeFiles/week3DrPFix.c.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/week3DrPFix.c.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/week3DrPFix.c.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/week3DrPFix.c.dir/rule
-
-# Convenience name for target.
-week3DrPFix.c: CMakeFiles/week3DrPFix.c.dir/rule
-
-.PHONY : week3DrPFix.c
-
-# clean rule for target.
-CMakeFiles/week3DrPFix.c.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week3DrPFix.c.dir/build.make CMakeFiles/week3DrPFix.c.dir/clean
-.PHONY : CMakeFiles/week3DrPFix.c.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/ternaryOperator.c.dir
-
-# All Build rule for target.
-CMakeFiles/ternaryOperator.c.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ternaryOperator.c.dir/build.make CMakeFiles/ternaryOperator.c.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ternaryOperator.c.dir/build.make CMakeFiles/ternaryOperator.c.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles --progress-num=63,64 "Built target ternaryOperator.c"
-.PHONY : CMakeFiles/ternaryOperator.c.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/ternaryOperator.c.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/ternaryOperator.c.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/ternaryOperator.c.dir/rule
-
-# Convenience name for target.
-ternaryOperator.c: CMakeFiles/ternaryOperator.c.dir/rule
-
-.PHONY : ternaryOperator.c
-
-# clean rule for target.
-CMakeFiles/ternaryOperator.c.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ternaryOperator.c.dir/build.make CMakeFiles/ternaryOperator.c.dir/clean
-.PHONY : CMakeFiles/ternaryOperator.c.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/whleCntChar.c.dir
-
-# All Build rule for target.
-CMakeFiles/whleCntChar.c.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/whleCntChar.c.dir/build.make CMakeFiles/whleCntChar.c.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/whleCntChar.c.dir/build.make CMakeFiles/whleCntChar.c.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles --progress-num=77,78 "Built target whleCntChar.c"
-.PHONY : CMakeFiles/whleCntChar.c.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/whleCntChar.c.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/whleCntChar.c.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/whleCntChar.c.dir/rule
-
-# Convenience name for target.
-whleCntChar.c: CMakeFiles/whleCntChar.c.dir/rule
-
-.PHONY : whleCntChar.c
-
-# clean rule for target.
-CMakeFiles/whleCntChar.c.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/whleCntChar.c.dir/build.make CMakeFiles/whleCntChar.c.dir/clean
-.PHONY : CMakeFiles/whleCntChar.c.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/speedingTicket.c.dir
-
-# All Build rule for target.
-CMakeFiles/speedingTicket.c.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/speedingTicket.c.dir/build.make CMakeFiles/speedingTicket.c.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/speedingTicket.c.dir/build.make CMakeFiles/speedingTicket.c.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles --progress-num=61,62 "Built target speedingTicket.c"
-.PHONY : CMakeFiles/speedingTicket.c.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/speedingTicket.c.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/speedingTicket.c.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/speedingTicket.c.dir/rule
-
-# Convenience name for target.
-speedingTicket.c: CMakeFiles/speedingTicket.c.dir/rule
-
-.PHONY : speedingTicket.c
-
-# clean rule for target.
-CMakeFiles/speedingTicket.c.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/speedingTicket.c.dir/build.make CMakeFiles/speedingTicket.c.dir/clean
-.PHONY : CMakeFiles/speedingTicket.c.dir/clean
-
-#=============================================================================
 # Target rules for target CMakeFiles/valentinesWhile.c.dir
 
 # All Build rule for target.
 CMakeFiles/valentinesWhile.c.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/valentinesWhile.c.dir/build.make CMakeFiles/valentinesWhile.c.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/valentinesWhile.c.dir/build.make CMakeFiles/valentinesWhile.c.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles --progress-num=65,66 "Built target valentinesWhile.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles --progress-num=65,66 "Built target valentinesWhile.c"
 .PHONY : CMakeFiles/valentinesWhile.c.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/valentinesWhile.c.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/valentinesWhile.c.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/valentinesWhile.c.dir/rule
 
 # Convenience name for target.
@@ -1190,20 +355,695 @@ CMakeFiles/valentinesWhile.c.dir/clean:
 .PHONY : CMakeFiles/valentinesWhile.c.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/speedingTicket.c.dir
+
+# All Build rule for target.
+CMakeFiles/speedingTicket.c.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/speedingTicket.c.dir/build.make CMakeFiles/speedingTicket.c.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/speedingTicket.c.dir/build.make CMakeFiles/speedingTicket.c.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles --progress-num=61,62 "Built target speedingTicket.c"
+.PHONY : CMakeFiles/speedingTicket.c.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/speedingTicket.c.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/speedingTicket.c.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/speedingTicket.c.dir/rule
+
+# Convenience name for target.
+speedingTicket.c: CMakeFiles/speedingTicket.c.dir/rule
+
+.PHONY : speedingTicket.c
+
+# clean rule for target.
+CMakeFiles/speedingTicket.c.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/speedingTicket.c.dir/build.make CMakeFiles/speedingTicket.c.dir/clean
+.PHONY : CMakeFiles/speedingTicket.c.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/bubbleSort.c.dir
+
+# All Build rule for target.
+CMakeFiles/bubbleSort.c.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bubbleSort.c.dir/build.make CMakeFiles/bubbleSort.c.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bubbleSort.c.dir/build.make CMakeFiles/bubbleSort.c.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles --progress-num=17,18 "Built target bubbleSort.c"
+.PHONY : CMakeFiles/bubbleSort.c.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/bubbleSort.c.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/bubbleSort.c.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/bubbleSort.c.dir/rule
+
+# Convenience name for target.
+bubbleSort.c: CMakeFiles/bubbleSort.c.dir/rule
+
+.PHONY : bubbleSort.c
+
+# clean rule for target.
+CMakeFiles/bubbleSort.c.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bubbleSort.c.dir/build.make CMakeFiles/bubbleSort.c.dir/clean
+.PHONY : CMakeFiles/bubbleSort.c.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/simpleArray.c.dir
+
+# All Build rule for target.
+CMakeFiles/simpleArray.c.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simpleArray.c.dir/build.make CMakeFiles/simpleArray.c.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simpleArray.c.dir/build.make CMakeFiles/simpleArray.c.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles --progress-num=55,56 "Built target simpleArray.c"
+.PHONY : CMakeFiles/simpleArray.c.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/simpleArray.c.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/simpleArray.c.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/simpleArray.c.dir/rule
+
+# Convenience name for target.
+simpleArray.c: CMakeFiles/simpleArray.c.dir/rule
+
+.PHONY : simpleArray.c
+
+# clean rule for target.
+CMakeFiles/simpleArray.c.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simpleArray.c.dir/build.make CMakeFiles/simpleArray.c.dir/clean
+.PHONY : CMakeFiles/simpleArray.c.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/courseraCForEveryone.dir
+
+# All Build rule for target.
+CMakeFiles/courseraCForEveryone.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/courseraCForEveryone.dir/build.make CMakeFiles/courseraCForEveryone.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/courseraCForEveryone.dir/build.make CMakeFiles/courseraCForEveryone.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles --progress-num=21,22 "Built target courseraCForEveryone"
+.PHONY : CMakeFiles/courseraCForEveryone.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/courseraCForEveryone.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/courseraCForEveryone.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/courseraCForEveryone.dir/rule
+
+# Convenience name for target.
+courseraCForEveryone: CMakeFiles/courseraCForEveryone.dir/rule
+
+.PHONY : courseraCForEveryone
+
+# clean rule for target.
+CMakeFiles/courseraCForEveryone.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/courseraCForEveryone.dir/build.make CMakeFiles/courseraCForEveryone.dir/clean
+.PHONY : CMakeFiles/courseraCForEveryone.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/ternaryOperator.c.dir
+
+# All Build rule for target.
+CMakeFiles/ternaryOperator.c.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ternaryOperator.c.dir/build.make CMakeFiles/ternaryOperator.c.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ternaryOperator.c.dir/build.make CMakeFiles/ternaryOperator.c.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles --progress-num=63,64 "Built target ternaryOperator.c"
+.PHONY : CMakeFiles/ternaryOperator.c.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/ternaryOperator.c.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/ternaryOperator.c.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/ternaryOperator.c.dir/rule
+
+# Convenience name for target.
+ternaryOperator.c: CMakeFiles/ternaryOperator.c.dir/rule
+
+.PHONY : ternaryOperator.c
+
+# clean rule for target.
+CMakeFiles/ternaryOperator.c.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ternaryOperator.c.dir/build.make CMakeFiles/ternaryOperator.c.dir/clean
+.PHONY : CMakeFiles/ternaryOperator.c.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/sineCosine.c.dir
+
+# All Build rule for target.
+CMakeFiles/sineCosine.c.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sineCosine.c.dir/build.make CMakeFiles/sineCosine.c.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sineCosine.c.dir/build.make CMakeFiles/sineCosine.c.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles --progress-num=59,60 "Built target sineCosine.c"
+.PHONY : CMakeFiles/sineCosine.c.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/sineCosine.c.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/sineCosine.c.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/sineCosine.c.dir/rule
+
+# Convenience name for target.
+sineCosine.c: CMakeFiles/sineCosine.c.dir/rule
+
+.PHONY : sineCosine.c
+
+# clean rule for target.
+CMakeFiles/sineCosine.c.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sineCosine.c.dir/build.make CMakeFiles/sineCosine.c.dir/clean
+.PHONY : CMakeFiles/sineCosine.c.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/breakContinueAndSwitch.c.dir
+
+# All Build rule for target.
+CMakeFiles/breakContinueAndSwitch.c.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/breakContinueAndSwitch.c.dir/build.make CMakeFiles/breakContinueAndSwitch.c.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/breakContinueAndSwitch.c.dir/build.make CMakeFiles/breakContinueAndSwitch.c.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles --progress-num=15,16 "Built target breakContinueAndSwitch.c"
+.PHONY : CMakeFiles/breakContinueAndSwitch.c.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/breakContinueAndSwitch.c.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/breakContinueAndSwitch.c.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/breakContinueAndSwitch.c.dir/rule
+
+# Convenience name for target.
+breakContinueAndSwitch.c: CMakeFiles/breakContinueAndSwitch.c.dir/rule
+
+.PHONY : breakContinueAndSwitch.c
+
+# clean rule for target.
+CMakeFiles/breakContinueAndSwitch.c.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/breakContinueAndSwitch.c.dir/build.make CMakeFiles/breakContinueAndSwitch.c.dir/clean
+.PHONY : CMakeFiles/breakContinueAndSwitch.c.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/milesAndYardsToYards.c.dir
+
+# All Build rule for target.
+CMakeFiles/milesAndYardsToYards.c.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/milesAndYardsToYards.c.dir/build.make CMakeFiles/milesAndYardsToYards.c.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/milesAndYardsToYards.c.dir/build.make CMakeFiles/milesAndYardsToYards.c.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles --progress-num=39,40 "Built target milesAndYardsToYards.c"
+.PHONY : CMakeFiles/milesAndYardsToYards.c.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/milesAndYardsToYards.c.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/milesAndYardsToYards.c.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/milesAndYardsToYards.c.dir/rule
+
+# Convenience name for target.
+milesAndYardsToYards.c: CMakeFiles/milesAndYardsToYards.c.dir/rule
+
+.PHONY : milesAndYardsToYards.c
+
+# clean rule for target.
+CMakeFiles/milesAndYardsToYards.c.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/milesAndYardsToYards.c.dir/build.make CMakeFiles/milesAndYardsToYards.c.dir/clean
+.PHONY : CMakeFiles/milesAndYardsToYards.c.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/week3DrPFix.c.dir
+
+# All Build rule for target.
+CMakeFiles/week3DrPFix.c.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week3DrPFix.c.dir/build.make CMakeFiles/week3DrPFix.c.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week3DrPFix.c.dir/build.make CMakeFiles/week3DrPFix.c.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles --progress-num=73,74 "Built target week3DrPFix.c"
+.PHONY : CMakeFiles/week3DrPFix.c.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/week3DrPFix.c.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/week3DrPFix.c.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/week3DrPFix.c.dir/rule
+
+# Convenience name for target.
+week3DrPFix.c: CMakeFiles/week3DrPFix.c.dir/rule
+
+.PHONY : week3DrPFix.c
+
+# clean rule for target.
+CMakeFiles/week3DrPFix.c.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week3DrPFix.c.dir/build.make CMakeFiles/week3DrPFix.c.dir/clean
+.PHONY : CMakeFiles/week3DrPFix.c.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/weighElephantSeal.c.dir
+
+# All Build rule for target.
+CMakeFiles/weighElephantSeal.c.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/weighElephantSeal.c.dir/build.make CMakeFiles/weighElephantSeal.c.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/weighElephantSeal.c.dir/build.make CMakeFiles/weighElephantSeal.c.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles --progress-num=75,76 "Built target weighElephantSeal.c"
+.PHONY : CMakeFiles/weighElephantSeal.c.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/weighElephantSeal.c.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/weighElephantSeal.c.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/weighElephantSeal.c.dir/rule
+
+# Convenience name for target.
+weighElephantSeal.c: CMakeFiles/weighElephantSeal.c.dir/rule
+
+.PHONY : weighElephantSeal.c
+
+# clean rule for target.
+CMakeFiles/weighElephantSeal.c.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/weighElephantSeal.c.dir/build.make CMakeFiles/weighElephantSeal.c.dir/clean
+.PHONY : CMakeFiles/weighElephantSeal.c.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/runningAverage.c.dir
+
+# All Build rule for target.
+CMakeFiles/runningAverage.c.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runningAverage.c.dir/build.make CMakeFiles/runningAverage.c.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runningAverage.c.dir/build.make CMakeFiles/runningAverage.c.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles --progress-num=53,54 "Built target runningAverage.c"
+.PHONY : CMakeFiles/runningAverage.c.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/runningAverage.c.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/runningAverage.c.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/runningAverage.c.dir/rule
+
+# Convenience name for target.
+runningAverage.c: CMakeFiles/runningAverage.c.dir/rule
+
+.PHONY : runningAverage.c
+
+# clean rule for target.
+CMakeFiles/runningAverage.c.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runningAverage.c.dir/build.make CMakeFiles/runningAverage.c.dir/clean
+.PHONY : CMakeFiles/runningAverage.c.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/pointerCode.c.dir
+
+# All Build rule for target.
+CMakeFiles/pointerCode.c.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointerCode.c.dir/build.make CMakeFiles/pointerCode.c.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointerCode.c.dir/build.make CMakeFiles/pointerCode.c.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles --progress-num=43,44 "Built target pointerCode.c"
+.PHONY : CMakeFiles/pointerCode.c.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/pointerCode.c.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/pointerCode.c.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/pointerCode.c.dir/rule
+
+# Convenience name for target.
+pointerCode.c: CMakeFiles/pointerCode.c.dir/rule
+
+.PHONY : pointerCode.c
+
+# clean rule for target.
+CMakeFiles/pointerCode.c.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointerCode.c.dir/build.make CMakeFiles/pointerCode.c.dir/clean
+.PHONY : CMakeFiles/pointerCode.c.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/arrayAsParameter.c.dir
+
+# All Build rule for target.
+CMakeFiles/arrayAsParameter.c.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arrayAsParameter.c.dir/build.make CMakeFiles/arrayAsParameter.c.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arrayAsParameter.c.dir/build.make CMakeFiles/arrayAsParameter.c.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target arrayAsParameter.c"
+.PHONY : CMakeFiles/arrayAsParameter.c.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/arrayAsParameter.c.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/arrayAsParameter.c.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/arrayAsParameter.c.dir/rule
+
+# Convenience name for target.
+arrayAsParameter.c: CMakeFiles/arrayAsParameter.c.dir/rule
+
+.PHONY : arrayAsParameter.c
+
+# clean rule for target.
+CMakeFiles/arrayAsParameter.c.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arrayAsParameter.c.dir/build.make CMakeFiles/arrayAsParameter.c.dir/clean
+.PHONY : CMakeFiles/arrayAsParameter.c.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/recursionFactorial.c.dir
+
+# All Build rule for target.
+CMakeFiles/recursionFactorial.c.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/recursionFactorial.c.dir/build.make CMakeFiles/recursionFactorial.c.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/recursionFactorial.c.dir/build.make CMakeFiles/recursionFactorial.c.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles --progress-num=49,50 "Built target recursionFactorial.c"
+.PHONY : CMakeFiles/recursionFactorial.c.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/recursionFactorial.c.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/recursionFactorial.c.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/recursionFactorial.c.dir/rule
+
+# Convenience name for target.
+recursionFactorial.c: CMakeFiles/recursionFactorial.c.dir/rule
+
+.PHONY : recursionFactorial.c
+
+# clean rule for target.
+CMakeFiles/recursionFactorial.c.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/recursionFactorial.c.dir/build.make CMakeFiles/recursionFactorial.c.dir/clean
+.PHONY : CMakeFiles/recursionFactorial.c.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Week2fixDrP.c.dir
+
+# All Build rule for target.
+CMakeFiles/Week2fixDrP.c.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Week2fixDrP.c.dir/build.make CMakeFiles/Week2fixDrP.c.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Week2fixDrP.c.dir/build.make CMakeFiles/Week2fixDrP.c.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles --progress-num=5,6 "Built target Week2fixDrP.c"
+.PHONY : CMakeFiles/Week2fixDrP.c.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Week2fixDrP.c.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Week2fixDrP.c.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/Week2fixDrP.c.dir/rule
+
+# Convenience name for target.
+Week2fixDrP.c: CMakeFiles/Week2fixDrP.c.dir/rule
+
+.PHONY : Week2fixDrP.c
+
+# clean rule for target.
+CMakeFiles/Week2fixDrP.c.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Week2fixDrP.c.dir/build.make CMakeFiles/Week2fixDrP.c.dir/clean
+.PHONY : CMakeFiles/Week2fixDrP.c.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/forCntChar.c.dir
+
+# All Build rule for target.
+CMakeFiles/forCntChar.c.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/forCntChar.c.dir/build.make CMakeFiles/forCntChar.c.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/forCntChar.c.dir/build.make CMakeFiles/forCntChar.c.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles --progress-num=31,32 "Built target forCntChar.c"
+.PHONY : CMakeFiles/forCntChar.c.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/forCntChar.c.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/forCntChar.c.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/forCntChar.c.dir/rule
+
+# Convenience name for target.
+forCntChar.c: CMakeFiles/forCntChar.c.dir/rule
+
+.PHONY : forCntChar.c
+
+# clean rule for target.
+CMakeFiles/forCntChar.c.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/forCntChar.c.dir/build.make CMakeFiles/forCntChar.c.dir/clean
+.PHONY : CMakeFiles/forCntChar.c.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/circlearea.c.dir
+
+# All Build rule for target.
+CMakeFiles/circlearea.c.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/circlearea.c.dir/build.make CMakeFiles/circlearea.c.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/circlearea.c.dir/build.make CMakeFiles/circlearea.c.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles --progress-num=19,20 "Built target circlearea.c"
+.PHONY : CMakeFiles/circlearea.c.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/circlearea.c.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/circlearea.c.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/circlearea.c.dir/rule
+
+# Convenience name for target.
+circlearea.c: CMakeFiles/circlearea.c.dir/rule
+
+.PHONY : circlearea.c
+
+# clean rule for target.
+CMakeFiles/circlearea.c.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/circlearea.c.dir/build.make CMakeFiles/circlearea.c.dir/clean
+.PHONY : CMakeFiles/circlearea.c.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/whleCntChar.c.dir
+
+# All Build rule for target.
+CMakeFiles/whleCntChar.c.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/whleCntChar.c.dir/build.make CMakeFiles/whleCntChar.c.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/whleCntChar.c.dir/build.make CMakeFiles/whleCntChar.c.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles --progress-num=79,80 "Built target whleCntChar.c"
+.PHONY : CMakeFiles/whleCntChar.c.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/whleCntChar.c.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/whleCntChar.c.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/whleCntChar.c.dir/rule
+
+# Convenience name for target.
+whleCntChar.c: CMakeFiles/whleCntChar.c.dir/rule
+
+.PHONY : whleCntChar.c
+
+# clean rule for target.
+CMakeFiles/whleCntChar.c.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/whleCntChar.c.dir/build.make CMakeFiles/whleCntChar.c.dir/clean
+.PHONY : CMakeFiles/whleCntChar.c.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/marathon.c.dir
+
+# All Build rule for target.
+CMakeFiles/marathon.c.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/marathon.c.dir/build.make CMakeFiles/marathon.c.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/marathon.c.dir/build.make CMakeFiles/marathon.c.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles --progress-num=33,34 "Built target marathon.c"
+.PHONY : CMakeFiles/marathon.c.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/marathon.c.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/marathon.c.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/marathon.c.dir/rule
+
+# Convenience name for target.
+marathon.c: CMakeFiles/marathon.c.dir/rule
+
+.PHONY : marathon.c
+
+# clean rule for target.
+CMakeFiles/marathon.c.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/marathon.c.dir/build.make CMakeFiles/marathon.c.dir/clean
+.PHONY : CMakeFiles/marathon.c.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/assertsMath.c.dir
+
+# All Build rule for target.
+CMakeFiles/assertsMath.c.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/assertsMath.c.dir/build.make CMakeFiles/assertsMath.c.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/assertsMath.c.dir/build.make CMakeFiles/assertsMath.c.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles --progress-num=13,14 "Built target assertsMath.c"
+.PHONY : CMakeFiles/assertsMath.c.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/assertsMath.c.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/assertsMath.c.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/assertsMath.c.dir/rule
+
+# Convenience name for target.
+assertsMath.c: CMakeFiles/assertsMath.c.dir/rule
+
+.PHONY : assertsMath.c
+
+# clean rule for target.
+CMakeFiles/assertsMath.c.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/assertsMath.c.dir/build.make CMakeFiles/assertsMath.c.dir/clean
+.PHONY : CMakeFiles/assertsMath.c.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/weather.c.dir
+
+# All Build rule for target.
+CMakeFiles/weather.c.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/weather.c.dir/build.make CMakeFiles/weather.c.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/weather.c.dir/build.make CMakeFiles/weather.c.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles --progress-num=67,68 "Built target weather.c"
+.PHONY : CMakeFiles/weather.c.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/weather.c.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/weather.c.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/weather.c.dir/rule
+
+# Convenience name for target.
+weather.c: CMakeFiles/weather.c.dir/rule
+
+.PHONY : weather.c
+
+# clean rule for target.
+CMakeFiles/weather.c.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/weather.c.dir/build.make CMakeFiles/weather.c.dir/clean
+.PHONY : CMakeFiles/weather.c.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/add3.c.dir
+
+# All Build rule for target.
+CMakeFiles/add3.c.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/add3.c.dir/build.make CMakeFiles/add3.c.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/add3.c.dir/build.make CMakeFiles/add3.c.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target add3.c"
+.PHONY : CMakeFiles/add3.c.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/add3.c.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/add3.c.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/add3.c.dir/rule
+
+# Convenience name for target.
+add3.c: CMakeFiles/add3.c.dir/rule
+
+.PHONY : add3.c
+
+# clean rule for target.
+CMakeFiles/add3.c.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/add3.c.dir/build.make CMakeFiles/add3.c.dir/clean
+.PHONY : CMakeFiles/add3.c.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/findSine.c.dir
+
+# All Build rule for target.
+CMakeFiles/findSine.c.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/findSine.c.dir/build.make CMakeFiles/findSine.c.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/findSine.c.dir/build.make CMakeFiles/findSine.c.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles --progress-num=29,30 "Built target findSine.c"
+.PHONY : CMakeFiles/findSine.c.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/findSine.c.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/findSine.c.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/findSine.c.dir/rule
+
+# Convenience name for target.
+findSine.c: CMakeFiles/findSine.c.dir/rule
+
+.PHONY : findSine.c
+
+# clean rule for target.
+CMakeFiles/findSine.c.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/findSine.c.dir/build.make CMakeFiles/findSine.c.dir/clean
+.PHONY : CMakeFiles/findSine.c.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/recursiveFibonacci.c.dir
+
+# All Build rule for target.
+CMakeFiles/recursiveFibonacci.c.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/recursiveFibonacci.c.dir/build.make CMakeFiles/recursiveFibonacci.c.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/recursiveFibonacci.c.dir/build.make CMakeFiles/recursiveFibonacci.c.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles --progress-num=51,52 "Built target recursiveFibonacci.c"
+.PHONY : CMakeFiles/recursiveFibonacci.c.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/recursiveFibonacci.c.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/recursiveFibonacci.c.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/recursiveFibonacci.c.dir/rule
+
+# Convenience name for target.
+recursiveFibonacci.c: CMakeFiles/recursiveFibonacci.c.dir/rule
+
+.PHONY : recursiveFibonacci.c
+
+# clean rule for target.
+CMakeFiles/recursiveFibonacci.c.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/recursiveFibonacci.c.dir/build.make CMakeFiles/recursiveFibonacci.c.dir/clean
+.PHONY : CMakeFiles/recursiveFibonacci.c.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Week1fixDrP.c.dir
+
+# All Build rule for target.
+CMakeFiles/Week1fixDrP.c.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Week1fixDrP.c.dir/build.make CMakeFiles/Week1fixDrP.c.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Week1fixDrP.c.dir/build.make CMakeFiles/Week1fixDrP.c.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target Week1fixDrP.c"
+.PHONY : CMakeFiles/Week1fixDrP.c.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Week1fixDrP.c.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Week1fixDrP.c.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/Week1fixDrP.c.dir/rule
+
+# Convenience name for target.
+Week1fixDrP.c: CMakeFiles/Week1fixDrP.c.dir/rule
+
+.PHONY : Week1fixDrP.c
+
+# clean rule for target.
+CMakeFiles/Week1fixDrP.c.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Week1fixDrP.c.dir/build.make CMakeFiles/Week1fixDrP.c.dir/clean
+.PHONY : CMakeFiles/Week1fixDrP.c.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/whileLoop.c.dir
 
 # All Build rule for target.
 CMakeFiles/whileLoop.c.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/whileLoop.c.dir/build.make CMakeFiles/whileLoop.c.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/whileLoop.c.dir/build.make CMakeFiles/whileLoop.c.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles --progress-num=75,76 "Built target whileLoop.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles --progress-num=77,78 "Built target whileLoop.c"
 .PHONY : CMakeFiles/whileLoop.c.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/whileLoop.c.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/whileLoop.c.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/whileLoop.c.dir/rule
 
 # Convenience name for target.
@@ -1215,6 +1055,195 @@ whileLoop.c: CMakeFiles/whileLoop.c.dir/rule
 CMakeFiles/whileLoop.c.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/whileLoop.c.dir/build.make CMakeFiles/whileLoop.c.dir/clean
 .PHONY : CMakeFiles/whileLoop.c.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/simpleForLoop.c.dir
+
+# All Build rule for target.
+CMakeFiles/simpleForLoop.c.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simpleForLoop.c.dir/build.make CMakeFiles/simpleForLoop.c.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simpleForLoop.c.dir/build.make CMakeFiles/simpleForLoop.c.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles --progress-num=57,58 "Built target simpleForLoop.c"
+.PHONY : CMakeFiles/simpleForLoop.c.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/simpleForLoop.c.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/simpleForLoop.c.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/simpleForLoop.c.dir/rule
+
+# Convenience name for target.
+simpleForLoop.c: CMakeFiles/simpleForLoop.c.dir/rule
+
+.PHONY : simpleForLoop.c
+
+# clean rule for target.
+CMakeFiles/simpleForLoop.c.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simpleForLoop.c.dir/build.make CMakeFiles/simpleForLoop.c.dir/clean
+.PHONY : CMakeFiles/simpleForLoop.c.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/milesAndYardsToKM.c.dir
+
+# All Build rule for target.
+CMakeFiles/milesAndYardsToKM.c.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/milesAndYardsToKM.c.dir/build.make CMakeFiles/milesAndYardsToKM.c.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/milesAndYardsToKM.c.dir/build.make CMakeFiles/milesAndYardsToKM.c.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles --progress-num=37,38 "Built target milesAndYardsToKM.c"
+.PHONY : CMakeFiles/milesAndYardsToKM.c.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/milesAndYardsToKM.c.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/milesAndYardsToKM.c.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/milesAndYardsToKM.c.dir/rule
+
+# Convenience name for target.
+milesAndYardsToKM.c: CMakeFiles/milesAndYardsToKM.c.dir/rule
+
+.PHONY : milesAndYardsToKM.c
+
+# clean rule for target.
+CMakeFiles/milesAndYardsToKM.c.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/milesAndYardsToKM.c.dir/build.make CMakeFiles/milesAndYardsToKM.c.dir/clean
+.PHONY : CMakeFiles/milesAndYardsToKM.c.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/moreMergeSort.c.dir
+
+# All Build rule for target.
+CMakeFiles/moreMergeSort.c.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/moreMergeSort.c.dir/build.make CMakeFiles/moreMergeSort.c.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/moreMergeSort.c.dir/build.make CMakeFiles/moreMergeSort.c.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles --progress-num=41,42 "Built target moreMergeSort.c"
+.PHONY : CMakeFiles/moreMergeSort.c.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/moreMergeSort.c.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/moreMergeSort.c.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/moreMergeSort.c.dir/rule
+
+# Convenience name for target.
+moreMergeSort.c: CMakeFiles/moreMergeSort.c.dir/rule
+
+.PHONY : moreMergeSort.c
+
+# clean rule for target.
+CMakeFiles/moreMergeSort.c.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/moreMergeSort.c.dir/build.make CMakeFiles/moreMergeSort.c.dir/clean
+.PHONY : CMakeFiles/moreMergeSort.c.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/printPoem.c.dir
+
+# All Build rule for target.
+CMakeFiles/printPoem.c.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/printPoem.c.dir/build.make CMakeFiles/printPoem.c.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/printPoem.c.dir/build.make CMakeFiles/printPoem.c.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles --progress-num=47,48 "Built target printPoem.c"
+.PHONY : CMakeFiles/printPoem.c.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/printPoem.c.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/printPoem.c.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/printPoem.c.dir/rule
+
+# Convenience name for target.
+printPoem.c: CMakeFiles/printPoem.c.dir/rule
+
+.PHONY : printPoem.c
+
+# clean rule for target.
+CMakeFiles/printPoem.c.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/printPoem.c.dir/build.make CMakeFiles/printPoem.c.dir/clean
+.PHONY : CMakeFiles/printPoem.c.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/week1add3.dir
+
+# All Build rule for target.
+CMakeFiles/week1add3.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week1add3.dir/build.make CMakeFiles/week1add3.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week1add3.dir/build.make CMakeFiles/week1add3.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles --progress-num=69,70 "Built target week1add3"
+.PHONY : CMakeFiles/week1add3.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/week1add3.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/week1add3.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/week1add3.dir/rule
+
+# Convenience name for target.
+week1add3: CMakeFiles/week1add3.dir/rule
+
+.PHONY : week1add3
+
+# clean rule for target.
+CMakeFiles/week1add3.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week1add3.dir/build.make CMakeFiles/week1add3.dir/clean
+.PHONY : CMakeFiles/week1add3.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/FunctionPrototype.c.dir
+
+# All Build rule for target.
+CMakeFiles/FunctionPrototype.c.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FunctionPrototype.c.dir/build.make CMakeFiles/FunctionPrototype.c.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FunctionPrototype.c.dir/build.make CMakeFiles/FunctionPrototype.c.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target FunctionPrototype.c"
+.PHONY : CMakeFiles/FunctionPrototype.c.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/FunctionPrototype.c.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/FunctionPrototype.c.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/FunctionPrototype.c.dir/rule
+
+# Convenience name for target.
+FunctionPrototype.c: CMakeFiles/FunctionPrototype.c.dir/rule
+
+.PHONY : FunctionPrototype.c
+
+# clean rule for target.
+CMakeFiles/FunctionPrototype.c.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FunctionPrototype.c.dir/build.make CMakeFiles/FunctionPrototype.c.dir/clean
+.PHONY : CMakeFiles/FunctionPrototype.c.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/fahrenheitToCelsius.c.dir
+
+# All Build rule for target.
+CMakeFiles/fahrenheitToCelsius.c.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fahrenheitToCelsius.c.dir/build.make CMakeFiles/fahrenheitToCelsius.c.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fahrenheitToCelsius.c.dir/build.make CMakeFiles/fahrenheitToCelsius.c.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles --progress-num=27,28 "Built target fahrenheitToCelsius.c"
+.PHONY : CMakeFiles/fahrenheitToCelsius.c.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/fahrenheitToCelsius.c.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/fahrenheitToCelsius.c.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kanghee/CLionProjects/courseraCForEveryone/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/fahrenheitToCelsius.c.dir/rule
+
+# Convenience name for target.
+fahrenheitToCelsius.c: CMakeFiles/fahrenheitToCelsius.c.dir/rule
+
+.PHONY : fahrenheitToCelsius.c
+
+# clean rule for target.
+CMakeFiles/fahrenheitToCelsius.c.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fahrenheitToCelsius.c.dir/build.make CMakeFiles/fahrenheitToCelsius.c.dir/clean
+.PHONY : CMakeFiles/fahrenheitToCelsius.c.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
